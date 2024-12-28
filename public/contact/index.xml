@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contact - Predefender Cyber Hunting</title>
+    <link>http://localhost:1313/contact/index.html</link>
+    <description>I’m usually available for a chat. Just scan the QR code below if you are using Whatsapp. Quick note: I won’t accept voice or video calls without prior notification. Please keep in mind, don’t just say hi - state your question at the very start! Other Media Username / link LinkedIn Public profile Telegram @rjohnsen X / Twitter @rogercbjohnsen Mastodon @rjohnsen</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/contact/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

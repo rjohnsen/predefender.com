@@ -1,0 +1,12 @@
+{{- $collection := .collection }}
+{{- $item := .item }}
+{{- $found := false }}
+{{- $result := "" }}
+{{- range $collection }}
+  {{- if $found }}
+	  {{- $result = .Page.Page }}
+  {{- else if eq $item .Page.Page }}
+	  {{- $found = true }}
+  {{- end }}
+{{- end }}
+{{- return $result }}

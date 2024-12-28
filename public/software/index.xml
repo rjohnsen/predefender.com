@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software - Predefender Cyber Hunting</title>
+    <link>http://localhost:1313/software/index.html</link>
+    <description>Microsoft Technologies Sentifender Lexica Detectica Sentifender Lexica Detectica is a Streamlit app that offers an overview of tables in Microsoft Sentinel and Defender, complete with pivot points between the tables and Kusto pivot examples. By using this tool you will get a better understanding on how you can move between the various tables.&#xA;Sentifender Lexica Detectica is available here Threat Hunting Threat Hunting Workstation The Threat Hunting Workstation is a complete toolkit designed to help teams establish a dedicated environment for efficient threat hunting. It features a SIEM tool for log importing and analysis, a wiki for documentation, and essential utilities for hunting and incident management. Delivered as an installation script for a virtualized instance of Alma Linux, this workstation offers a centralized, powerful solution to enhance team collaboration and streamline security operations.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/software/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

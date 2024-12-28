@@ -1,0 +1,6 @@
+{{ $currentPage := .Page }}
+| Title | Summary | Published Date |
+|-------|---------| ---------------|
+{{- range sort $currentPage.Pages "PublishDate" "desc" }}
+| [{{ .Title }}]({{ .RelPermalink }}) | {{.Summary}} | {{ .PublishDate.Format "2006-01-02" }} |
+{{- end }}

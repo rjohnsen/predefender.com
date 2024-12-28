@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resources - Predefender Cyber Hunting</title>
+    <link>http://localhost:1313/resources/index.html</link>
+    <description>CTF Writeups SANS Holiday Hack Challenge 2024 The SANS Holiday Hack Challenge is an annual cybersecurity event featuring interactive challenges and a captivating storyline. Participants solve puzzles, tackle cybersecurity scenarios, and explore digital forensics, penetration testing, and other topics. It is designed for all skill levels, from beginners to seasoned professionals. The event is free and encourages collaboration, creativity, and learning. It culminates in a festive, gamified environment that combines technical training with holiday cheer.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/resources/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
