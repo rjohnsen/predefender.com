@@ -6,13 +6,14 @@
     <description>Traditional Security Operations Centers (SOCs) are often reactive, constrained by a limited mindset that focuses on responding to threats as they emerge. But there’s a better approach. We’re here to transform SOC analysts into proactive threat hunters. Our cutting-edge training programs empower you to anticipate and neutralize threats before they strike, moving beyond mere reaction to true cybersecurity mastery. Embrace the proactive mindset and elevate your cybersecurity skills with us.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 29 Dec 2024 10:37:22 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Articles</title>
       <link>http://localhost:1313/articles/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 29 Dec 2024 10:37:22 +0100</pubDate>
       <guid>http://localhost:1313/articles/index.html</guid>
-      <description>Title Summary Published Date</description>
+      <description>Title Summary Published Date The Malware That Wasnt This article explores my journey of reverse engineering a mysterious malware sample, from initial analysis to uncovering its hidden operations. 2024-12-29</description>
     </item>
     <item>
       <title>Projects</title>

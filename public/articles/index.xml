@@ -3,9 +3,17 @@
   <channel>
     <title>Articles - Predefender Cyber Hunting</title>
     <link>http://localhost:1313/articles/index.html</link>
-    <description>Title Summary Published Date</description>
+    <description>Title Summary Published Date The Malware That Wasnt This article explores my journey of reverse engineering a mysterious malware sample, from initial analysis to uncovering its hidden operations. 2024-12-29</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 29 Dec 2024 10:37:22 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Malware That Wasnt</title>
+      <link>http://localhost:1313/articles/the-malware-that-wasnt/index.html</link>
+      <pubDate>Sun, 29 Dec 2024 10:37:22 +0100</pubDate>
+      <guid>http://localhost:1313/articles/the-malware-that-wasnt/index.html</guid>
+      <description>This article explores my journey of reverse engineering a mysterious malware sample, from initial analysis to uncovering its hidden operations.</description>
+    </item>
   </channel>
 </rss>

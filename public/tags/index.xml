@@ -6,27 +6,27 @@
     <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Dec 2024 14:13:25 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 29 Dec 2024 10:37:22 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Tag - Tag1</title>
-      <link>http://localhost:1313/tags/tag1/index.html</link>
-      <pubDate>Sat, 28 Dec 2024 14:13:25 +0100</pubDate>
-      <guid>http://localhost:1313/tags/tag1/index.html</guid>
+      <title>Tag - Analysis</title>
+      <link>http://localhost:1313/tags/analysis/index.html</link>
+      <pubDate>Sun, 29 Dec 2024 10:37:22 +0100</pubDate>
+      <guid>http://localhost:1313/tags/analysis/index.html</guid>
       <description></description>
     </item>
     <item>
-      <title>Tag - Tag2</title>
-      <link>http://localhost:1313/tags/tag2/index.html</link>
-      <pubDate>Sat, 28 Dec 2024 14:13:25 +0100</pubDate>
-      <guid>http://localhost:1313/tags/tag2/index.html</guid>
+      <title>Tag - Education</title>
+      <link>http://localhost:1313/tags/education/index.html</link>
+      <pubDate>Sun, 29 Dec 2024 10:37:22 +0100</pubDate>
+      <guid>http://localhost:1313/tags/education/index.html</guid>
       <description></description>
     </item>
     <item>
-      <title>Tag - Tag3</title>
-      <link>http://localhost:1313/tags/tag3/index.html</link>
-      <pubDate>Sat, 28 Dec 2024 14:13:25 +0100</pubDate>
-      <guid>http://localhost:1313/tags/tag3/index.html</guid>
+      <title>Tag - Malware</title>
+      <link>http://localhost:1313/tags/malware/index.html</link>
+      <pubDate>Sun, 29 Dec 2024 10:37:22 +0100</pubDate>
+      <guid>http://localhost:1313/tags/malware/index.html</guid>
       <description></description>
     </item>
   </channel>
