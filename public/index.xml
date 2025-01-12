@@ -6,7 +6,7 @@
     <description>Traditional Security Operations Centers (SOCs) often operate reactively, stuck in a cycle of responding to threats as they appear. I’ve seen it firsthand—the stress, the constant firefighting, the sense that you’re always one step behind. But there’s a better way.&#xA;Imagine transforming that reactive approach into something proactive. Instead of just responding to threats, you’re anticipating them, neutralizing them before they even have a chance to materialize. That’s what these training programs are designed for: to empower SOC analysts to think and act like true threat hunters—skilled, confident, and always ahead of the game.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Dec 2024 10:37:22 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jan 2025 08:13:26 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Articles</title>
@@ -32,7 +32,7 @@
     <item>
       <title>About</title>
       <link>http://localhost:1313/about/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 12 Jan 2025 08:13:26 +0100</pubDate>
       <guid>http://localhost:1313/about/index.html</guid>
       <description>Roger Johnsen Roger Johnsen is a dedicated Information Security Consultant specializing in enhancing Blue Team capabilities. His expertise includes educating analysts, developing threat hunting strategies, software development, and ensuring the quality assurance of processes and routines.&#xA;Roger actively participates in Capture The Flag (CTF) competitions on platforms like the SANS Holiday Hack Challenge and Hack The Box, integrating the knowledge gained into his daily practice. In 2022, he was recognized as the runner-up for the best “Technical Answer” in the SANS Holiday Hack Challenge 2021 edition, earning a challenge coin for his outstanding performance.</description>
     </item>

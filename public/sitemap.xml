@@ -12,9 +12,14 @@
   </url>
   <url>
     <loc>http://localhost:1313/about/index.html</loc>
+    <lastmod>2025-01-12T08:13:26+01:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/contact/index.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/about/cv/index.html</loc>
+    <lastmod>2025-01-12T08:13:26+01:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/tags/analysis/index.html</loc>
