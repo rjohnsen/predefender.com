@@ -152,11 +152,19 @@ A small selection of relevant certifications. For more certifications and inform
 
 ## Publications
 
+### Technical
+
 #### Threat Hunt Book
 
 Predefender.com · Sep 10, 2024 &rarr; Ongoing.
 
 > [The Predefender Threat Hunt Book](https://huntbook.predefender.com) is a comprehensive online resource dedicated to threat hunting, created for cybersecurity professionals looking to deepen their understanding of threat detection and response. It combines structured guidance with practical insights, providing an accessible yet in-depth look into the methodologies, tools, and strategies used in modern threat hunting.  
+
+#### Malware Reversing
+
+[The Malware That Wasn't"](https://www.predefender.com/articles/the-malware-that-wasnt/index.html) - an article on how I reverse engineered a malware sample sent to me. 
+
+### Other
 
 #### Series on mindset and thinking
 
