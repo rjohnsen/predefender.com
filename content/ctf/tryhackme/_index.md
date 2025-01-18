@@ -1,7 +1,7 @@
 ---
 title: "Tryhackme"
 date: 2025-01-18T09:28:16+01:00
-draft: true
+draft: false
 ---
 
 ## What is TryHackMe?
