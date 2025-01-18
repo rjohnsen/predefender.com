@@ -21,6 +21,8 @@ But beware, this won't be a walk in the digital park. Hack Smarter Security has 
 >
 >_May your code be swift, your exploits flawless, and victory yours!_
 
+Availability: https://tryhackme.com/r/room/silverplatter 
+
 --- 
 
 ## Portscanning

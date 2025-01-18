@@ -26,21 +26,21 @@
     <meta itemprop="description" content="Revised Date Author Comment 18.01.2025 Roger Johnsen Article added Introduction Think you’ve got what it takes to outsmart the Hack Smarter Security team? They claim to be unbeatable, and now it’s your chance to prove them wrong. Dive into their web server, find the hidden flags, and show the world your elite hacking skills. Good luck, and may the best hacker win! But beware, this won’t be a walk in the digital park. Hack Smarter Security has fortified the server against common attacks and their password policy requires passwords that have not been breached (they check it against the rockyou.txt wordlist - that’s how ‘cool’ they are). The hacking gauntlet has been thrown, and it’s time to elevate your game. Remember, only the most ingenious will rise to the top.">
     <meta itemprop="datePublished" content="2025-01-18T14:09:39+01:00">
     <meta itemprop="dateModified" content="2025-01-18T14:09:39+01:00">
-    <meta itemprop="wordCount" content="1221">
+    <meta itemprop="wordCount" content="1223">
     <meta itemprop="keywords" content="Ctf,Tryhackme,Writeup">
     <title>Silverplatter - Predefender Cyber Hunting</title>
 
-    <link href="/css/fontawesome-all.min.css?1737218381" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1737218381" rel="stylesheet"></noscript>
-    <link href="/css/nucleus.css?1737218381" rel="stylesheet">
-    <link href="/css/auto-complete.css?1737218381" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1737218381" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar.min.css?1737218381" rel="stylesheet">
-    <link href="/css/fonts.css?1737218381" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1737218381" rel="stylesheet"></noscript>
-    <link href="/css/theme.css?1737218381" rel="stylesheet">
-    <link href="/css/theme-predefender.css?1737218381" rel="stylesheet" id="R-variant-style">
-    <link href="/css/chroma-relearn-light.css?1737218381" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/css/variant.css?1737218381" rel="stylesheet">
-    <link href="/css/print.css?1737218381" rel="stylesheet" media="print">
-    <script src="/js/variant.js?1737218381"></script>
+    <link href="/css/fontawesome-all.min.css?1737218644" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1737218644" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1737218644" rel="stylesheet">
+    <link href="/css/auto-complete.css?1737218644" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1737218644" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1737218644" rel="stylesheet">
+    <link href="/css/fonts.css?1737218644" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1737218644" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1737218644" rel="stylesheet">
+    <link href="/css/theme-predefender.css?1737218644" rel="stylesheet" id="R-variant-style">
+    <link href="/css/chroma-relearn-light.css?1737218644" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/css/variant.css?1737218644" rel="stylesheet">
+    <link href="/css/print.css?1737218644" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1737218644"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -138,6 +138,8 @@
 But beware, this won&rsquo;t be a walk in the digital park. Hack Smarter Security has fortified the server against common attacks and their password policy requires passwords that have not been breached (they check it against the rockyou.txt wordlist - that&rsquo;s how &lsquo;cool&rsquo; they are). The hacking gauntlet has been thrown, and it&rsquo;s time to elevate your game. Remember, only the most ingenious will rise to the top.</em></p>
 <p><em>May your code be swift, your exploits flawless, and victory yours!</em></p>
 </blockquote>
+<p>Availability: <a href="https://tryhackme.com/r/room/silverplatter" rel="external" target="_blank">https://tryhackme.com/r/room/silverplatter</a>
+</p>
 <hr>
 <h2 id="portscanning">Portscanning</h2>
 <div class="highlight wrap-code"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nmap -sS -Pn -p- -oN scan.txt 10.10.88.182
@@ -259,8 +261,8 @@ But beware, this won&rsquo;t be a walk in the digital park. Hack Smarter Securit
 <li>To: <em>hxxp[://]silverpeas[.]thm:8080/silverpeas/</em></li>
 </ul>
 <p>Upon visiting we are greeted with a login form:</p>
-<p><a href="#R-image-6b3dcfcc408c5e17572a1563a35422b5" class="lightbox-link"><img alt="Login form" class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="/images/ctf/tryhackme/silverplatter/silveplatter-1.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-6b3dcfcc408c5e17572a1563a35422b5"><img alt="Login form" class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="/images/ctf/tryhackme/silverplatter/silveplatter-1.png"></a></p>
+<p><a href="#R-image-84316b7caf5576a636388403cddfe4e0" class="lightbox-link"><img alt="Login form" class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="/images/ctf/tryhackme/silverplatter/silveplatter-1.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-84316b7caf5576a636388403cddfe4e0"><img alt="Login form" class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="/images/ctf/tryhackme/silverplatter/silveplatter-1.png"></a></p>
 <p>Alread in the rooms description there are some important hints:</p>
 <blockquote>
 <p>Hack Smarter Security has fortified the server against common attacks and their password policy requires passwords that have not been breached (they check it against the rockyou.txt wordlist - that’s how ‘cool’ they are)</p>
@@ -288,14 +290,14 @@ But beware, this won&rsquo;t be a walk in the digital park. Hack Smarter Securit
 <p>Found this password:</p>
 <div class="highlight wrap-code"><pre tabindex="0"><code>adipiscing</code></pre></div>
 <p>When logging in I was greeted by this landingpage:</p>
-<p><a href="#R-image-b3a5083f10d4cb5226f3e5266fe5e85c" class="lightbox-link"><img alt="Landing page" class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="/images/ctf/tryhackme/silverplatter/silveplatter-2.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-b3a5083f10d4cb5226f3e5266fe5e85c"><img alt="Landing page" class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="/images/ctf/tryhackme/silverplatter/silveplatter-2.png"></a></p>
+<p><a href="#R-image-06a17ead04835041dfe852c213149a4d" class="lightbox-link"><img alt="Landing page" class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="/images/ctf/tryhackme/silverplatter/silveplatter-2.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-06a17ead04835041dfe852c213149a4d"><img alt="Landing page" class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="/images/ctf/tryhackme/silverplatter/silveplatter-2.png"></a></p>
 <p>Looking around I found a messaging utility:</p>
-<p><a href="#R-image-65166a620d2804429effc27e93f3d042" class="lightbox-link"><img alt="Messaging utility" class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="/images/ctf/tryhackme/silverplatter/silveplatter-3.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-65166a620d2804429effc27e93f3d042"><img alt="Messaging utility" class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="/images/ctf/tryhackme/silverplatter/silveplatter-3.png"></a></p>
+<p><a href="#R-image-0ecc0c9087f91752cfc7b2978d15acd1" class="lightbox-link"><img alt="Messaging utility" class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="/images/ctf/tryhackme/silverplatter/silveplatter-3.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-0ecc0c9087f91752cfc7b2978d15acd1"><img alt="Messaging utility" class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="/images/ctf/tryhackme/silverplatter/silveplatter-3.png"></a></p>
 <p>Toying with the GET arguments, there seems to be an IDOR in the message ID argument, meaning I can access other peoples messages:</p>
-<p><a href="#R-image-c865cfeeccaad9b4833e21b307302c84" class="lightbox-link"><img alt="Messaging IDOR" class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="/images/ctf/tryhackme/silverplatter/silveplatter-4.png" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-c865cfeeccaad9b4833e21b307302c84"><img alt="Messaging IDOR" class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="/images/ctf/tryhackme/silverplatter/silveplatter-4.png"></a></p>
+<p><a href="#R-image-06996096c7c4bdff4a6dbd3a97a02979" class="lightbox-link"><img alt="Messaging IDOR" class="noborder lazy lightbox noshadow figure-image" loading="lazy" src="/images/ctf/tryhackme/silverplatter/silveplatter-4.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-06996096c7c4bdff4a6dbd3a97a02979"><img alt="Messaging IDOR" class="noborder lazy lightbox noshadow lightbox-image" loading="lazy" src="/images/ctf/tryhackme/silverplatter/silveplatter-4.png"></a></p>
 <p>The message contained this credential, which works for SSH:</p>
 <div class="highlight wrap-code"><pre tabindex="0"><code>tim:cm0nt!md0ntf0rg3tth!spa$$w0rdagainlol</code></pre></div>
 <p>User flag can easily be obtained by logging in as Tim as reading the flag file in his home folder. Further inspection reveals that Tim is a part of an admin (adm) group:</p>
@@ -441,23 +443,23 @@ root@silver-platter:~# cat root.txt</code></pre></div>
         </div>
       </div>
     </aside>
-    <script src="/js/clipboard.min.js?1737218381" defer></script>
-    <script src="/js/perfect-scrollbar.min.js?1737218381" defer></script>
-    <script src="/js/d3/d3-color.min.js?1737218381" defer></script>
-    <script src="/js/d3/d3-dispatch.min.js?1737218381" defer></script>
-    <script src="/js/d3/d3-drag.min.js?1737218381" defer></script>
-    <script src="/js/d3/d3-ease.min.js?1737218381" defer></script>
-    <script src="/js/d3/d3-interpolate.min.js?1737218381" defer></script>
-    <script src="/js/d3/d3-selection.min.js?1737218381" defer></script>
-    <script src="/js/d3/d3-timer.min.js?1737218381" defer></script>
-    <script src="/js/d3/d3-transition.min.js?1737218381" defer></script>
-    <script src="/js/d3/d3-zoom.min.js?1737218381" defer></script>
-    <script src="/js/js-yaml.min.js?1737218381" defer></script>
-    <script src="/js/mermaid.min.js?1737218381" defer></script>
+    <script src="/js/clipboard.min.js?1737218644" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1737218644" defer></script>
+    <script src="/js/d3/d3-color.min.js?1737218644" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1737218644" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1737218644" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1737218644" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1737218644" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1737218644" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1737218644" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1737218644" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1737218644" defer></script>
+    <script src="/js/js-yaml.min.js?1737218644" defer></script>
+    <script src="/js/mermaid.min.js?1737218644" defer></script>
     <script>
       window.themeUseMermaid = JSON.parse("{}");
     </script>
-    <script src="/js/theme.js?1737218381" defer></script>
+    <script src="/js/theme.js?1737218644" defer></script>
     <script src="https://cdn.counter.dev/script.js" data-id="f2222025-310f-4c96-9abb-aee09ff8d01f" data-utcoffset="2"></script>
   </body>
 </html>
