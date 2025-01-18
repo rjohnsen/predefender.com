@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ctf - Tag - Predefender Cyber Hunting</title>
+    <link>http://localhost:1313/tags/ctf/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Jan 2025 09:36:24 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lightroom</title>
+      <link>http://localhost:1313/ctf/tryhackme/lightroom/index.html</link>
+      <pubDate>Sat, 18 Jan 2025 09:36:24 +0100</pubDate>
+      <guid>http://localhost:1313/ctf/tryhackme/lightroom/index.html</guid>
+      <description>By: Roger Johnsen, 18.01.2025&#xA;Revised Date Author Comment 18.01.2025 Roger Johnsen Article added Introduction Introduction text here&#xA;Solution MITRE ATT&amp;CK Technique Comment Reconnaissance MITRE ATT&amp;CK Technique Comment Resource Development MITRE ATT&amp;CK Technique Comment Initial Access MITRE ATT&amp;CK Technique Comment Execution MITRE ATT&amp;CK Technique Comment Persistence MITRE ATT&amp;CK Technique Comment Privilege Escalation MITRE ATT&amp;CK Technique Comment Defense Evasion MITRE ATT&amp;CK Technique Comment Credential Access MITRE ATT&amp;CK Technique Comment Discovery MITRE ATT&amp;CK Technique Comment Lateral Movement MITRE ATT&amp;CK Technique Comment Collection MITRE ATT&amp;CK Technique Comment Command and Control MITRE ATT&amp;CK Technique Comment Exfiltration MITRE ATT&amp;CK Technique Comment Impact MITRE ATT&amp;CK Technique Comment</description>
+    </item>
+  </channel>
+</rss>

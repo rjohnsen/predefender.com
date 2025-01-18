@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tryhackme - Predefender Cyber Hunting</title>
+    <link>http://localhost:1313/ctf/tryhackme/index.html</link>
+    <description>What is TryHackMe? TryHackMe is an online platform that provides interactive cybersecurity training through hands-on labs, tutorials, and challenges. Designed for beginners and professionals alike, it covers a wide range of topics, including ethical hacking, penetration testing, digital forensics, and incident response. With guided learning paths and real-world scenarios, TryHackMe helps users build practical skills in a gamified and accessible format, making it a valuable resource for anyone looking to enhance their cybersecurity expertise.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Jan 2025 14:09:39 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/ctf/tryhackme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Silverplatter</title>
+      <link>http://localhost:1313/ctf/tryhackme/silverplatter/index.html</link>
+      <pubDate>Sat, 18 Jan 2025 14:09:39 +0100</pubDate>
+      <guid>http://localhost:1313/ctf/tryhackme/silverplatter/index.html</guid>
+      <description>Revised Date Author Comment 18.01.2025 Roger Johnsen Article added Introduction Think you’ve got what it takes to outsmart the Hack Smarter Security team? They claim to be unbeatable, and now it’s your chance to prove them wrong. Dive into their web server, find the hidden flags, and show the world your elite hacking skills. Good luck, and may the best hacker win! But beware, this won’t be a walk in the digital park. Hack Smarter Security has fortified the server against common attacks and their password policy requires passwords that have not been breached (they check it against the rockyou.txt wordlist - that’s how ‘cool’ they are). The hacking gauntlet has been thrown, and it’s time to elevate your game. Remember, only the most ingenious will rise to the top.</description>
+    </item>
+    <item>
+      <title>Lightroom</title>
+      <link>http://localhost:1313/ctf/tryhackme/lightroom/index.html</link>
+      <pubDate>Sat, 18 Jan 2025 09:36:24 +0100</pubDate>
+      <guid>http://localhost:1313/ctf/tryhackme/lightroom/index.html</guid>
+      <description>Revised Date Author Comment 18.01.2025 Roger Johnsen Article added Introduction I am working on a database application called Light! Would you like to try it out? If so, the application is running on port 1337. You can connect to it using nc 10.10.199.201 1337 You can use the username smokey in order to get started.&#xA;Note: Please allow the service 2 - 3 minutes to fully start before connecting to it.</description>
+    </item>
+  </channel>
+</rss>

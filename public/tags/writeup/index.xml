@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Writeup - Tag - Predefender Cyber Hunting</title>
+    <link>http://localhost:1313/tags/writeup/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 18 Jan 2025 09:36:24 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/writeup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lightroom</title>
+      <link>http://localhost:1313/ctf/tryhackme/lightroom/index.html</link>
+      <pubDate>Sat, 18 Jan 2025 09:36:24 +0100</pubDate>
+      <guid>http://localhost:1313/ctf/tryhackme/lightroom/index.html</guid>
+      <description>By: Roger Johnsen, 18.01.2025&#xA;Revised Date Author Comment 18.01.2025 Roger Johnsen Article added Introduction I am working on a database application called Light! Would you like to try it out? If so, the application is running on port 1337. You can connect to it using nc 10.10.199.201 1337 You can use the username smokey in order to get started.</description>
+    </item>
+  </channel>
+</rss>

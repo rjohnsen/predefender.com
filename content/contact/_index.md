@@ -1,7 +1,7 @@
 +++
 archetype = "page"
 title = "Contact"
-weight = 6
+weight = 5
 +++
 
 > I'm usually available for a chat. Just scan the QR code below if you are using Whatsapp. Quick note: I won't accept voice or video calls without prior notification. [Please keep in mind, don't just say hi - state your question at the very start!](https://nohello.net/en/)

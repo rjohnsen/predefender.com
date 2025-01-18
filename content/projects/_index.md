@@ -1,7 +1,7 @@
 +++
 archetype = "page"
 title = "Projects"
-weight = 2
+weight = 3
 +++
 
 ## Microsoft Technologies

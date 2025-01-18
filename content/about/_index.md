@@ -1,7 +1,7 @@
 +++
 archetype = "page"
 title = "About"
-weight = 4
+weight = 6
 +++
 
 ##   Roger Johnsen

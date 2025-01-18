@@ -1,7 +1,7 @@
 +++
 archetype = "page"
 title = "Resources"
-weight = 3
+weight = 4
 +++
 
 ## CTF Writeups

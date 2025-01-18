@@ -6,7 +6,7 @@
     <description>Traditional Security Operations Centers (SOCs) often operate reactively, stuck in a cycle of responding to threats as they appear. I’ve seen it firsthand—the stress, the constant firefighting, the sense that you’re always one step behind. But there’s a better way.&#xA;Imagine transforming that reactive approach into something proactive. Instead of just responding to threats, you’re anticipating them, neutralizing them before they even have a chance to materialize. That’s what these training programs are designed for: to empower SOC analysts to think and act like true threat hunters—skilled, confident, and always ahead of the game.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Jan 2025 08:13:26 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jan 2025 14:09:39 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Articles</title>
@@ -14,6 +14,13 @@
       <pubDate>Sun, 29 Dec 2024 10:37:22 +0100</pubDate>
       <guid>http://localhost:1313/articles/index.html</guid>
       <description>Title Summary Published Date The Malware That Wasnt This article explores my journey of reverse engineering a mysterious malware sample, from initial analysis to uncovering its hidden operations. 2024-12-29</description>
+    </item>
+    <item>
+      <title>CTF</title>
+      <link>http://localhost:1313/ctf/index.html</link>
+      <pubDate>Sat, 18 Jan 2025 14:09:39 +0100</pubDate>
+      <guid>http://localhost:1313/ctf/index.html</guid>
+      <description>What is CTF (Capture the Flag) and Why is it Important for Threat Hunters? Capture the Flag (CTF) competitions are cybersecurity challenges designed to test participants’ skills in various domains such as vulnerability exploitation, reverse engineering, cryptography, digital forensics, and network security. These competitions are often presented as puzzles or scenarios where participants act as defenders, attackers, or investigators to “capture” digital flags hidden within systems or files.&#xA;For threat hunters, participating in CTFs is invaluable for several reasons:</description>
     </item>
     <item>
       <title>Projects</title>
@@ -30,18 +37,18 @@
       <description>CTF Writeups SANS Holiday Hack Challenge 2024 The SANS Holiday Hack Challenge is an annual cybersecurity event featuring interactive challenges and a captivating storyline. Participants solve puzzles, tackle cybersecurity scenarios, and explore digital forensics, penetration testing, and other topics. It is designed for all skill levels, from beginners to seasoned professionals. The event is free and encourages collaboration, creativity, and learning. It culminates in a festive, gamified environment that combines technical training with holiday cheer.</description>
     </item>
     <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/index.html</link>
-      <pubDate>Sun, 12 Jan 2025 08:13:26 +0100</pubDate>
-      <guid>http://localhost:1313/about/index.html</guid>
-      <description>Roger Johnsen Roger Johnsen is a dedicated Information Security Consultant specializing in enhancing Blue Team capabilities. His expertise includes educating analysts, developing threat hunting strategies, software development, and ensuring the quality assurance of processes and routines.&#xA;Roger actively participates in Capture The Flag (CTF) competitions on platforms like the SANS Holiday Hack Challenge and Hack The Box, integrating the knowledge gained into his daily practice. In 2022, he was recognized as the runner-up for the best “Technical Answer” in the SANS Holiday Hack Challenge 2021 edition, earning a challenge coin for his outstanding performance.</description>
-    </item>
-    <item>
       <title>Contact</title>
       <link>http://localhost:1313/contact/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/contact/index.html</guid>
       <description>I’m usually available for a chat. Just scan the QR code below if you are using Whatsapp. Quick note: I won’t accept voice or video calls without prior notification. Please keep in mind, don’t just say hi - state your question at the very start! Other Media Username / link LinkedIn Public profile Telegram @rjohnsen X / Twitter @rogercbjohnsen Mastodon @rjohnsen</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/index.html</link>
+      <pubDate>Sun, 12 Jan 2025 08:13:26 +0100</pubDate>
+      <guid>http://localhost:1313/about/index.html</guid>
+      <description>Roger Johnsen Roger Johnsen is a dedicated Information Security Consultant specializing in enhancing Blue Team capabilities. His expertise includes educating analysts, developing threat hunting strategies, software development, and ensuring the quality assurance of processes and routines.&#xA;Roger actively participates in Capture The Flag (CTF) competitions on platforms like the SANS Holiday Hack Challenge and Hack The Box, integrating the knowledge gained into his daily practice. In 2022, he was recognized as the runner-up for the best “Technical Answer” in the SANS Holiday Hack Challenge 2021 edition, earning a challenge coin for his outstanding performance.</description>
     </item>
   </channel>
 </rss>
