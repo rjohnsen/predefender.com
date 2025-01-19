@@ -6,14 +6,28 @@
     <description></description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Jan 2025 09:36:24 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jan 2025 14:09:39 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Lightroom</title>
+      <title>Silverplatter</title>
+      <link>http://localhost:1313/ctf/tryhackme/silverplatter/index.html</link>
+      <pubDate>Sat, 18 Jan 2025 14:09:39 +0100</pubDate>
+      <guid>http://localhost:1313/ctf/tryhackme/silverplatter/index.html</guid>
+      <description>Revised Date Author Comment 18.01.2025 Roger Johnsen Article added Introduction Think you’ve got what it takes to outsmart the Hack Smarter Security team? They claim to be unbeatable, and now it’s your chance to prove them wrong. Dive into their web server, find the hidden flags, and show the world your elite hacking skills. Good luck, and may the best hacker win! But beware, this won’t be a walk in the digital park. Hack Smarter Security has fortified the server against common attacks and their password policy requires passwords that have not been breached (they check it against the rockyou.txt wordlist - that’s how ‘cool’ they are). The hacking gauntlet has been thrown, and it’s time to elevate your game. Remember, only the most ingenious will rise to the top.</description>
+    </item>
+    <item>
+      <title>Light</title>
+      <link>http://localhost:1313/ctf/tryhackme/light/index.html</link>
+      <pubDate>Sat, 18 Jan 2025 09:36:24 +0100</pubDate>
+      <guid>http://localhost:1313/ctf/tryhackme/light/index.html</guid>
+      <description>Revised Date Author Comment 19.01.2025 Roger Johnsen Article added Introduction I am working on a database application called Light! Would you like to try it out? If so, the application is running on port 1337. You can connect to it using nc 10.10.199.201 1337 You can use the username smokey in order to get started.&#xA;Note: Please allow the service 2 - 3 minutes to fully start before connecting to it.</description>
+    </item>
+    <item>
+      <title>Light</title>
       <link>http://localhost:1313/ctf/tryhackme/lightroom/index.html</link>
       <pubDate>Sat, 18 Jan 2025 09:36:24 +0100</pubDate>
       <guid>http://localhost:1313/ctf/tryhackme/lightroom/index.html</guid>
-      <description>By: Roger Johnsen, 18.01.2025&#xA;Revised Date Author Comment 18.01.2025 Roger Johnsen Article added Introduction Introduction text here&#xA;Solution MITRE ATT&amp;CK Technique Comment Reconnaissance MITRE ATT&amp;CK Technique Comment Resource Development MITRE ATT&amp;CK Technique Comment Initial Access MITRE ATT&amp;CK Technique Comment Execution MITRE ATT&amp;CK Technique Comment Persistence MITRE ATT&amp;CK Technique Comment Privilege Escalation MITRE ATT&amp;CK Technique Comment Defense Evasion MITRE ATT&amp;CK Technique Comment Credential Access MITRE ATT&amp;CK Technique Comment Discovery MITRE ATT&amp;CK Technique Comment Lateral Movement MITRE ATT&amp;CK Technique Comment Collection MITRE ATT&amp;CK Technique Comment Command and Control MITRE ATT&amp;CK Technique Comment Exfiltration MITRE ATT&amp;CK Technique Comment Impact MITRE ATT&amp;CK Technique Comment</description>
+      <description>Revised Date Author Comment 19.01.2025 Roger Johnsen Article added Introduction I am working on a database application called Light! Would you like to try it out? If so, the application is running on port 1337. You can connect to it using nc 10.10.147.110 1337 You can use the username smokey in order to get started.&#xA;Note: Please allow the service 2 - 3 minutes to fully start before connecting to it.</description>
     </item>
   </channel>
 </rss>
