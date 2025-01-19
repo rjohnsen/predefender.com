@@ -17,7 +17,7 @@ summary: ""
 ## Introduction
 
 >_I am working on a database application called Light! Would you like to try it out?
-If so, the application is running on port 1337. You can connect to it using nc 10.10.199.201 1337
+If so, the application is running on port 1337. You can connect to it using nc 10.10.147.110 1337
 You can use the username smokey in order to get started._
 >
 >_Note: Please allow the service 2 - 3 minutes to fully start before connecting to it._
@@ -29,10 +29,10 @@ Availability: https://tryhackme.com/r/room/lightroom
 ## Portscanning
 
 ```bash
-nmap -sS -Pn -p- 10.10.199.201 -oN scan.txt
+nmap -sS -Pn -p- 10.10.147.110 -oN scan.txt
 
-# Nmap 7.94SVN scan initiated Sat Jan 18 12:34:04 2025 as: /usr/lib/nmap/nmap --privileged -sS -Pn -p- -oN scan.txt 10.10.199.201
-Nmap scan report for 10.10.199.201
+# Nmap 7.94SVN scan initiated Sat Jan 18 12:34:04 2025 as: /usr/lib/nmap/nmap --privileged -sS -Pn -p- -oN scan.txt 10.10.147.110
+Nmap scan report for 10.10.147.110
 Host is up (0.059s latency).
 Not shown: 65533 closed tcp ports (reset)
 PORT     STATE SERVICE
@@ -43,7 +43,7 @@ PORT     STATE SERVICE
 ## Enumerating service
 
 ```bash
-nc 10.10.199.201 1337
+nc 10.10.147.110 1337
 
 Welcome to the Light database!
 Please enter your username: smokey
@@ -61,7 +61,7 @@ Initial prodding of the login prompt reveals the following:
 - Input filtering appears to be in place.  
 
 ```bash
-nc 10.10.199.201 1337
+nc 10.10.147.110 1337
 Welcome to the Light database!
 
 Please enter your username: 
