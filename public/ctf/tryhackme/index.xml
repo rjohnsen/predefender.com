@@ -16,7 +16,7 @@
       <description>Revised Date Author Comment 18.01.2025 Roger Johnsen Article added Introduction Think you’ve got what it takes to outsmart the Hack Smarter Security team? They claim to be unbeatable, and now it’s your chance to prove them wrong. Dive into their web server, find the hidden flags, and show the world your elite hacking skills. Good luck, and may the best hacker win! But beware, this won’t be a walk in the digital park. Hack Smarter Security has fortified the server against common attacks and their password policy requires passwords that have not been breached (they check it against the rockyou.txt wordlist - that’s how ‘cool’ they are). The hacking gauntlet has been thrown, and it’s time to elevate your game. Remember, only the most ingenious will rise to the top.</description>
     </item>
     <item>
-      <title>Lightroom</title>
+      <title>Light</title>
       <link>http://localhost:1313/ctf/tryhackme/lightroom/index.html</link>
       <pubDate>Sat, 18 Jan 2025 09:36:24 +0100</pubDate>
       <guid>http://localhost:1313/ctf/tryhackme/lightroom/index.html</guid>

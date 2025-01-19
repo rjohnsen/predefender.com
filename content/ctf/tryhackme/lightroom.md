@@ -1,5 +1,5 @@
 ---
-title: "Lightroom"
+title: "Light"
 date: 2025-01-18T09:36:24+01:00
 draft: false
 hidden: false
@@ -21,6 +21,8 @@ If so, the application is running on port 1337. You can connect to it using nc 1
 You can use the username smokey in order to get started._
 >
 >_Note: Please allow the service 2 - 3 minutes to fully start before connecting to it._
+
+Availability: https://tryhackme.com/r/room/lightroom
 
 --- 
 
