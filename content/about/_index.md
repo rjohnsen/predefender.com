@@ -20,7 +20,7 @@ Committed to achieving optimal outcomes in every situation, **Roger** emphasizes
 
 | When | Title | Company | Roles |
 | ---- | ----- | ------- | ----- |
-| Jun 2025 - Curr | Lead Security Architect | Threat Informed Defense | 
+| Jun 2025 - Curr | Lead Security Architect | Orkla IT | Threat Informed Defense | 
 | Mar 2024 - Jun 2025 | Head of Cyber Security Operations | Orkla IT | Leading the Cyber Security Department. | 
 | Oct 2023 - Jun 2025 | SOC Analyst | Orkla IT | SOC Lead Analyst, threat hunting, training | 
 | Sep 2020 - Sep 2023 | Senior Security Analyst / Head of Training | Defendable AS | SOC analyst, threat hunting, mentoring, education | 
