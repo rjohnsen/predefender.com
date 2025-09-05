@@ -1,7 +1,6 @@
 ---
 title: "curriculum vitae"
 date: 2025-01-12T08:13:26+01:00
-draft: false
 hidden: true
 ---
 
