@@ -33,8 +33,15 @@ _Roger is the author of "[The Huntbook by Predefender](https://huntbook.predefen
 
 ### Orkla IT
 
+#### Lead Security Architect - Threat Informed Defense
+June 2025 - present
+
+> In this role, I focus on designing secure, scalable, and resilient architectures that incorporate threat intelligence and adversary behavior insights. My work emphasizes proactive threat detection through intelligence-driven threat hunting and purple teaming, helping to strengthen the organization’s detection and response capabilities. I collaborate closely with cross-functional teams to ensure security is embedded throughout the technology lifecycle and aligned with business objectives.
+>
+> I also support knowledge sharing across the organization by mentoring teams in SOC operations, threat intelligence, and vulnerability management, and by fostering a culture of secure design. Through regular technical risk assessments and targeted mitigation strategies, I help identify and address security gaps. Staying ahead of emerging threats is a core part of the role, and I continuously adapt our defenses to meet the demands of a dynamic threat landscape.
+
 #### Head of Cyber Security Operations
-March 2024 - Present. Oslo, Norway 
+March 2024 - June 2025. Oslo, Norway 
 
 > As Head of Cyber Security Operations at Orkla IT in Oslo, Norway, I lead a dedicated team of security experts specializing in SOC, penetration testing, and SAP security. Drawing on my background in threat detection and incident response, I have successfully shaped strategic security initiatives to safeguard the company and its customers. My focus on developing a resilient and proactive team has been instrumental in addressing complex security challenges and creating a robust security posture
 

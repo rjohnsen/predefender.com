@@ -20,8 +20,9 @@ Committed to achieving optimal outcomes in every situation, **Roger** emphasizes
 
 | When | Title | Company | Roles |
 | ---- | ----- | ------- | ----- |
-| Mar 2024 - Cur | Head of Cyber Security Operations | Orkla IT | Leading the Cyber Security Department. | 
-| Oct 2023 - Cur | SOC Analyst | Orkla IT | SOC Lead Analyst, threat hunting, training | 
+| Jun 2025 - Curr | Lead Security Architect | Threat Informed Defense | 
+| Mar 2024 - Jun 2025 | Head of Cyber Security Operations | Orkla IT | Leading the Cyber Security Department. | 
+| Oct 2023 - Jun 2025 | SOC Analyst | Orkla IT | SOC Lead Analyst, threat hunting, training | 
 | Sep 2020 - Sep 2023 | Senior Security Analyst / Head of Training | Defendable AS | SOC analyst, threat hunting, mentoring, education | 
 | Nov 2017 - Aug 2020 | Security Analyst MSS | Pedab Norge | Building SOC, SOC analyst, threat hunting, mentoring |
 | Sep 2015 - Nov 2017 | Information Security Consultant | Watchcom Security Group AS | SOC, vulnerability management, threat hunting |
