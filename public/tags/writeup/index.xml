@@ -20,13 +20,6 @@
       <link>http://localhost:1313/ctf/tryhackme/light/index.html</link>
       <pubDate>Sat, 18 Jan 2025 09:36:24 +0100</pubDate>
       <guid>http://localhost:1313/ctf/tryhackme/light/index.html</guid>
-      <description>Revised Date Author Comment 19.01.2025 Roger Johnsen Article added Introduction I am working on a database application called Light! Would you like to try it out? If so, the application is running on port 1337. You can connect to it using nc 10.10.199.201 1337 You can use the username smokey in order to get started.&#xA;Note: Please allow the service 2 - 3 minutes to fully start before connecting to it.</description>
-    </item>
-    <item>
-      <title>Light</title>
-      <link>http://localhost:1313/ctf/tryhackme/lightroom/index.html</link>
-      <pubDate>Sat, 18 Jan 2025 09:36:24 +0100</pubDate>
-      <guid>http://localhost:1313/ctf/tryhackme/lightroom/index.html</guid>
       <description>Revised Date Author Comment 19.01.2025 Roger Johnsen Article added Introduction I am working on a database application called Light! Would you like to try it out? If so, the application is running on port 1337. You can connect to it using nc 10.10.147.110 1337 You can use the username smokey in order to get started.&#xA;Note: Please allow the service 2 - 3 minutes to fully start before connecting to it.</description>
     </item>
   </channel>

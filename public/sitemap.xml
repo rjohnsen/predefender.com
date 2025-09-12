@@ -46,12 +46,12 @@
     <lastmod>2025-01-18T09:36:24+01:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/ctf/tryhackme/lightroom/index.html</loc>
-    <lastmod>2025-01-18T09:36:24+01:00</lastmod>
-  </url>
-  <url>
     <loc>http://localhost:1313/ctf/tryhackme/index.html</loc>
     <lastmod>2025-01-18T09:28:16+01:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/about/cv-2/index.html</loc>
+    <lastmod>2025-01-12T08:13:26+01:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/about/cv/index.html</loc>

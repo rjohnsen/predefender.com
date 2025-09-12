@@ -10,6 +10,13 @@
     <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>curriculum vitae</title>
+      <link>http://localhost:1313/about/cv-2/index.html</link>
+      <pubDate>Sun, 12 Jan 2025 08:13:26 +0100</pubDate>
+      <guid>http://localhost:1313/about/cv-2/index.html</guid>
+      <description>Roger Cato Bergheim Johnsen Lead Security Architect - Threat Informed Defense&#xA;Location: Kongsvinger &amp; Oslo, Norway&#xA;Birth: 1982&#xA;Summary Roger is a cybersecurity leader and practitioner with broad experience across Security Operations, threat hunting, penetration testing, and software development. He currently serves as Lead Security Architect – Threat Informed Defense at Orkla IT, where he designs secure architectures, builds detection capabilities, and mentors teams in SOC, threat intelligence, and vulnerability management.</description>
+    </item>
+    <item>
+      <title>curriculum vitae</title>
       <link>http://localhost:1313/about/cv/index.html</link>
       <pubDate>Sun, 12 Jan 2025 08:13:26 +0100</pubDate>
       <guid>http://localhost:1313/about/cv/index.html</guid>
