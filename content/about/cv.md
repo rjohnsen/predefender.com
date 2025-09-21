@@ -45,6 +45,8 @@ June 2025 - present
 >
 > I also support knowledge sharing across the organization by mentoring teams in SOC operations, threat intelligence, and vulnerability management, and by fostering a culture of secure design. Through regular technical risk assessments and targeted mitigation strategies, I help identify and address security gaps. Staying ahead of emerging threats is a core part of the role, and I continuously adapt our defenses to meet the demands of a dynamic threat landscape.
 
+> Currently looking into how to lift both internal and external security by looking at utilizing TryHackMe Tabletopp excersises and MTIRE Caldera for break and attack simulations. 
+
 _Achievements: Introduced the company to Threat Informed Defense through threat intelligence, log investigation, pentest and curiosity- Have uncovered severe vulnerabilities in current infrastructure._
 
 _Relevant Technologies_: Microsoft Defender, Kusto Query Language, Azure, Splunk, Nessus, Qualys, SolarWinds Orion, Python, Rust, GO, PowerShell, MITRE Caldera.
@@ -64,9 +66,11 @@ October 2023 - June 2025. Oslo, Norway
 
 > In my role as a SOC Analyst at Orkla IT in Oslo, Norway, I spearheaded the development of threat detection and incident management efforts within the Security Operations Center. By leading a team of analysts, I focused on enhancing our proactive approach to identifying and mitigating threats across diverse environments. My hands-on involvement in threat hunting, SIEM tuning, and escalation processes aimed to improve SOC efficiency and effectiveness, ultimately strengthening our security posture and supporting the organization's security goals
 
+> Started to look into how to lift both internal and external security by looking at MTIRE Caldera for break and attack simulations. 
+
 _Achievements: Focused SOC into proactive manners and investigation (Threat Hunting), incorporating routines and processes. Trained analysts in advanced topics such as reversing, analysis and threat hunting._
 
-_Relevant Technologies_: Microsoft Defender, Kusto Query Language, Azure, Splunk, Nessus, Qualys, SolarWinds Orion, Python, Rust, GO, PowerShell, MITRE Caldera.
+_Relevant Technologies_: Microsoft Defender, Kusto Query Language, Azure, Splunk, Nessus, Qualys, SolarWinds Orion, Python, Rust, GO, PowerShell.
 
 ### Defendable AS (former BDO Cybersecurity)
 
