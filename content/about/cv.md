@@ -47,7 +47,7 @@ June 2025 - present
 
 _Achievements: Introduced the company to Threat Informed Defense through threat intelligence, log investigation, pentest and curiosity- Have uncovered severe vulnerabilities in current infrastructure._
 
-_Relevant Technologies_: Microsoft Defender, Splunk, Nessus, Qualys, SolarWinds Orion, Python, Rust, GO.
+_Relevant Technologies_: Microsoft Defender, Splunk, Nessus, Qualys, SolarWinds Orion, Python, Rust, GO, PowerShell.
 
 #### Head of Cyber Security Operations
 March 2024 - June 2025. Oslo, Norway 
@@ -56,7 +56,7 @@ March 2024 - June 2025. Oslo, Norway
 
 _Achievements: Restructured my department with focus on delivering operational security and consultancy work. Focused SOC into proactive manners and investigation (Threat Hunting), incorporating routines and processes. Tidying the department budget._
 
-_Relevant Technologies_: Microsoft Defender, Splunk, Nessus, Qualys, SolarWinds Orion, Python, Rust, GO.
+_Relevant Technologies_: Microsoft Defender, Splunk, Nessus, Qualys, SolarWinds Orion, Python, Rust, GO, PowerShell.
 
 #### SOC Analyst
 
@@ -66,7 +66,7 @@ October 2023 - June 2025. Oslo, Norway
 
 _Achievements: Focused SOC into proactive manners and investigation (Threat Hunting), incorporating routines and processes. Trained analysts in advanced topics such as reversing, analysis and threat hunting._
 
-_Relevant Technologies_: Microsoft Defender, Splunk, Nessus, Qualys, SolarWinds Orion, Python, Rust, GO.
+_Relevant Technologies_: Microsoft Defender, Splunk, Nessus, Qualys, SolarWinds Orion, Python, Rust, GO, PowerShell.
 
 ### Defendable AS (former BDO Cybersecurity)
 
@@ -118,7 +118,7 @@ Senior Systems Consultant September 2011 - January 2015. Oslo, Norway
 
 _Achievements: Started incorporating security into the development process in forms of vulnerability scanning, loadtesting and unit testing._
 
-_Relevant Technologies_: Acunetix, .NET (C#), PHP
+_Relevant Technologies_: Acunetix, .NET (C#), PHP, PowerShell
 
 ### bMenu
 
