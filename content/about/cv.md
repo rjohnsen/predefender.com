@@ -47,7 +47,7 @@ June 2025 - present
 
 _Achievements: Introduced the company to Threat Informed Defense through threat intelligence, log investigation, pentest and curiosity- Have uncovered severe vulnerabilities in current infrastructure._
 
-_Relevant Technologies_: Microsoft Defender, Kusto Query Language, Splunk, Nessus, Qualys, SolarWinds Orion, Python, Rust, GO, PowerShell, MITRE Caldera.
+_Relevant Technologies_: Microsoft Defender, Kusto Query Language, Azure, Splunk, Nessus, Qualys, SolarWinds Orion, Python, Rust, GO, PowerShell, MITRE Caldera.
 
 #### Head of Cyber Security Operations
 March 2024 - June 2025. Oslo, Norway 
@@ -56,7 +56,7 @@ March 2024 - June 2025. Oslo, Norway
 
 _Achievements: Restructured my department with focus on delivering operational security and consultancy work. Focused SOC into proactive manners and investigation (Threat Hunting), incorporating routines and processes. Tidying the department budget._
 
-_Relevant Technologies_: Microsoft Defender, Kusto Query Language, Splunk, Nessus, Qualys, SolarWinds Orion, Python, Rust, GO, PowerShell, MITRE Caldera.
+_Relevant Technologies_: Microsoft Defender, Kusto Query Language, Azure, Splunk, Nessus, Qualys, SolarWinds Orion, Python, Rust, GO, PowerShell, MITRE Caldera.
 
 #### SOC Analyst
 
@@ -66,7 +66,7 @@ October 2023 - June 2025. Oslo, Norway
 
 _Achievements: Focused SOC into proactive manners and investigation (Threat Hunting), incorporating routines and processes. Trained analysts in advanced topics such as reversing, analysis and threat hunting._
 
-_Relevant Technologies_: Microsoft Defender, Kusto Query Language, Splunk, Nessus, Qualys, SolarWinds Orion, Python, Rust, GO, PowerShell, MITRE Caldera.
+_Relevant Technologies_: Microsoft Defender, Kusto Query Language, Azure, Splunk, Nessus, Qualys, SolarWinds Orion, Python, Rust, GO, PowerShell, MITRE Caldera.
 
 ### Defendable AS (former BDO Cybersecurity)
 
