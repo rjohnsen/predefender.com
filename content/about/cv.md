@@ -47,7 +47,7 @@ June 2025 - present
 
 _Achievements: Introduced the company to Threat Informed Defense through threat intelligence, log investigation, pentest and curiosity- Have uncovered severe vulnerabilities in current infrastructure._
 
-_Relevant Technologies_: Microsoft Defender, Splunk, Nessus, Qualys, SolarWinds Orion, Python, Rust, GO, PowerShell.
+_Relevant Technologies_: Microsoft Defender, Kusto Query Language, Splunk, Nessus, Qualys, SolarWinds Orion, Python, Rust, GO, PowerShell, MITRE Caldera.
 
 #### Head of Cyber Security Operations
 March 2024 - June 2025. Oslo, Norway 
@@ -56,7 +56,7 @@ March 2024 - June 2025. Oslo, Norway
 
 _Achievements: Restructured my department with focus on delivering operational security and consultancy work. Focused SOC into proactive manners and investigation (Threat Hunting), incorporating routines and processes. Tidying the department budget._
 
-_Relevant Technologies_: Microsoft Defender, Splunk, Nessus, Qualys, SolarWinds Orion, Python, Rust, GO, PowerShell.
+_Relevant Technologies_: Microsoft Defender, Kusto Query Language, Splunk, Nessus, Qualys, SolarWinds Orion, Python, Rust, GO, PowerShell, MITRE Caldera.
 
 #### SOC Analyst
 
@@ -66,23 +66,23 @@ October 2023 - June 2025. Oslo, Norway
 
 _Achievements: Focused SOC into proactive manners and investigation (Threat Hunting), incorporating routines and processes. Trained analysts in advanced topics such as reversing, analysis and threat hunting._
 
-_Relevant Technologies_: Microsoft Defender, Splunk, Nessus, Qualys, SolarWinds Orion, Python, Rust, GO, PowerShell.
+_Relevant Technologies_: Microsoft Defender, Kusto Query Language, Splunk, Nessus, Qualys, SolarWinds Orion, Python, Rust, GO, PowerShell, MITRE Caldera.
 
 ### Defendable AS (former BDO Cybersecurity)
 
 Senior Security Analyst September 2020 - September 2023. Oslo, Norway 
 
-> In my role as a Senior Security Analyst at BDO Cybersecurity (now Defendable AS), I focused on coaching and educating SOC analysts while building threat hunting capabilities within the organization. After the transition to Defendable AS in 2021, I took on dual roles: working as a Threat Hunter to identify intrusion artifacts alongside the SOC team and serving as Head of Training to guide and develop analysts into top-tier SOC professionals. 
+> In my role as a Senior Security Analyst at BDO Cybersecurity (now Defendable AS), I focused on coaching and educating SOC analysts while building threat hunting capabilities within the organization. After the transition to Defendable AS in 2021, I took on dual roles: working as a Threat Hunter to identify intrusion artifacts alongside the SOC team and serving as Head of Training to guide and develop analysts into top-tier SOC professionals. Participating in pilot on building Purple Team capabilities through AttackIQ based training.
 
 _Achievements: I designed and led Defendable's annual internal SOC education conference, an intensive eight-day program for analysts and employees. The conference featured expert-led sessions on malware analysis, log analysis, and operational technologies, significantly enhancing team expertise and collaboration._
 
-_Relevant Technologies_: Microsoft Defender and Sentinel, Elastic, Carbon Black, Python, Rust, GO.
+_Relevant Technologies_: Microsoft Defender and Sentinel, Kusto Query Language, Elastic, Carbon Black, Python, Rust, GO.
 
 ### Pedab Norge
 
 Security Analyst MSS November 2017 - August 2020. Oslo, Norway 
 
-> In my role as a Security Analyst MSS at Pedab Norge, I had the opportunity to build a SOC from scratch, utilizing IBM QRadar for monitoring network activities and analyzing security incidents. I developed processes for daily analysis, aided customers in incident handling, and led the creation of integrations for enhanced analysis work.
+> In my role as a Security Analyst MSS at Pedab Norge, I had the opportunity to build a SOC from scratch, utilizing IBM QRadar for monitoring network activities and analyzing security incidents. I developed processes for daily analysis, aided customers in incident handling, and led the creation of integrations for enhanced analysis work. Automated triage using Python to increase speed and quality.
 
 _Achievements: Built a SOC from scratch, onboarding new analysts, automation through Python scripting_
 
