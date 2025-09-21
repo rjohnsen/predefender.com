@@ -118,11 +118,11 @@ _Relevant Technologies_: BurpSuite, Python, other pentest tools.
 
 Senior Systems Consultant September 2011 - January 2015. Oslo, Norway
 
-> In my role as Senior Systems Consultant at Making Waves AS, I specialized in Security, focusing on improving software development processes. I managed in-house penetration testing using tools like Acunetix Web Vulnerability Scanner, BurpSuite, custom tools, and browser extensions. I also researched attack vectors, delivered presentations, and published materials to enhance the organization’s security, improving the overall security profile of the development process. In addition, I worked as a web developer in the Open Source PHP department, primarily focusing on the LAMPP stack. I used tools such as Acunetix, PHP XML, MySQL, Apache, MongoDB, eZ Publish, Apache JMeter for load testing, EPiServer, ElasticSearch, and .NET 4.x
+> In my role as Senior Systems Consultant at Making Waves AS, I specialized in Security, focusing on improving software development processes. I managed in-house penetration testing using tools like Acunetix Web Vulnerability Scanner, BurpSuite, custom tools, and browser extensions. I also researched attack vectors, delivered presentations, and published materials to enhance the organization’s security, improving the overall security profile of the development process. In addition, I worked as a web developer in the Open Source PHP department, primarily focusing on the LAMPP stack. 
 
 _Achievements: Started incorporating security into the development process in forms of vulnerability scanning, loadtesting and unit testing._
 
-_Relevant Technologies_: Acunetix, .NET (C#), PHP, PowerShell
+_Relevant Technologies_: Acunetix, PHP XML, MySQL, Apache, MongoDB, eZ Publish, Apache JMeter for load testing, EPiServer, ElasticSearch, PowerShell and .NET 4.x
 
 ### bMenu
 
