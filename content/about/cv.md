@@ -19,7 +19,7 @@ __Birth:__ 1982
 
 Roger is a cybersecurity leader and practitioner with broad experience across Security Operations, threat hunting, penetration testing, and software development. He currently serves as **Lead Security Architect – Threat Informed Defense** at Orkla IT, where he designs secure architectures, builds detection capabilities, and mentors teams in SOC, threat intelligence, and vulnerability management.  
 
-He is the author of "[The Huntbook by Predefender](https://huntbook.predefender.com)", an online resource for professionalizing threat hunting and incident response. In addition, Roger develops proof-of-concept security tools such as **Wraithbind** (a Rust-based C2/threat emulation platform) and **Sentifender Lexica Detectica** (a Streamlit app for exploring Microsoft Defender/Sentinel schemas). [Predefender](https://predefender.com) is Rogers personal initiative to both drive innovation and teach threat hunting to the masses. 
+He is the author of "[The Huntbook by Predefender](https://huntbook.predefender.com)", an online resource for professionalizing threat hunting and incident response. In addition, Roger develops proof-of-concept security tools such as **Wraithbind** (a Rust-based C2/Breach and Attack Simulation platform) and **Sentifender Lexica Detectica** (a Streamlit app for exploring Microsoft Defender/Sentinel schemas). [Predefender](https://predefender.com) is Rogers personal initiative to both drive innovation and teach threat hunting to the masses. 
 
 With a strong background in information security consulting and hands-on programming, he combines strategic vision with technical depth. A passionate Capture The Flag (CTF) participant and reverse engineer, Roger thrives at the intersection of red and blue teaming, bringing creativity, precision, and persistence to solving complex security challenges.
 
@@ -47,12 +47,16 @@ June 2025 - present
 
 _Achievements: Introduced the company to Threat Informed Defense through threat intelligence, log investigation, pentest and curiosity- Have uncovered severe vulnerabilities in current infrastructure._
 
+_Relevant Technologies_: Microsoft Defender, Splunk, Nessus, Qualys, SolarWinds Orion, Python, Rust, GO.
+
 #### Head of Cyber Security Operations
 March 2024 - June 2025. Oslo, Norway 
 
 > As Head of Cyber Security Operations at Orkla IT in Oslo, Norway, I lead a dedicated team of security experts specializing in SOC, penetration testing, and SAP security. Drawing on my background in threat detection and incident response, I have successfully shaped strategic security initiatives to safeguard the company and its customers. My focus on developing a resilient and proactive team has been instrumental in addressing complex security challenges and creating a robust security posture
 
 _Achievements: Restructured my department with focus on delivering operational security and consultancy work. Focused SOC into proactive manners and investigation (Threat Hunting), incorporating routines and processes. Tidying the department budget._
+
+_Relevant Technologies_: Microsoft Defender, Splunk, Nessus, Qualys, SolarWinds Orion, Python, Rust, GO.
 
 #### SOC Analyst
 
@@ -62,6 +66,8 @@ October 2023 - June 2025. Oslo, Norway
 
 _Achievements: Focused SOC into proactive manners and investigation (Threat Hunting), incorporating routines and processes. Trained analysts in advanced topics such as reversing, analysis and threat hunting._
 
+_Relevant Technologies_: Microsoft Defender, Splunk, Nessus, Qualys, SolarWinds Orion, Python, Rust, GO.
+
 ### Defendable AS (former BDO Cybersecurity)
 
 Senior Security Analyst September 2020 - September 2023. Oslo, Norway 
@@ -70,6 +76,8 @@ Senior Security Analyst September 2020 - September 2023. Oslo, Norway
 
 _Achievements: I designed and led Defendable's annual internal SOC education conference, an intensive eight-day program for analysts and employees. The conference featured expert-led sessions on malware analysis, log analysis, and operational technologies, significantly enhancing team expertise and collaboration._
 
+_Relevant Technologies_: Microsoft Defender and Sentinel, Elastic, Carbon Black, Python, Rust, GO.
+
 ### Pedab Norge
 
 Security Analyst MSS November 2017 - August 2020. Oslo, Norway 
@@ -77,6 +85,8 @@ Security Analyst MSS November 2017 - August 2020. Oslo, Norway
 > In my role as a Security Analyst MSS at Pedab Norge, I had the opportunity to build a SOC from scratch, utilizing IBM QRadar for monitoring network activities and analyzing security incidents. I developed processes for daily analysis, aided customers in incident handling, and led the creation of integrations for enhanced analysis work.
 
 _Achievements: Built a SOC from scratch, onboarding new analysts, automation through Python scripting_
+
+_Relevant Technologies_: IBM Qradar, Python, Rust, GO.
 
 <div style="page-break-after: always;"></div>
 
@@ -88,6 +98,8 @@ Information Security Consultant September 2015 - November 2017. Oslo, Norway
 
 _Achievements: Restructured vulnerability management service, rebuilt and enhanced SOC service._
 
+_Relevant Technologies_: IBM Qradar, Nessus, Outpost24, Python, Rust, Go
+
 ### Protego AS
 
 Senior Security Consultant February 2015 - August 2015. Oslo, Norway 
@@ -95,6 +107,8 @@ Senior Security Consultant February 2015 - August 2015. Oslo, Norway
 > In my role as a Senior Security Consultant at Protego AS, I focused on enhancing cybersecurity measures through penetration testing, vulnerability scanning, and security consulting for clients. I played a key role in developing and improving security services, contributing to the overall success of the company. Company defunct as of Aug. 2015 due to bankrupcy.
 
 _Achievements: Penetration tested companies with regards to network, services and web._
+
+_Relevant Technologies_: BurpSuite, Python, other pentest tools.
 
 ### Making Waves 
 
@@ -104,6 +118,8 @@ Senior Systems Consultant September 2011 - January 2015. Oslo, Norway
 
 _Achievements: Started incorporating security into the development process in forms of vulnerability scanning, loadtesting and unit testing._
 
+_Relevant Technologies_: Acunetix, .NET (C#), PHP
+
 ### bMenu
 
 Software Developer and implementing agile processes December 2010 - September 2011. Oslo, Norway
@@ -112,6 +128,8 @@ Software Developer and implementing agile processes December 2010 - September 
 
 _Achievements: Implemented agile methodologies_
 
+_Relevant Technologies_: PHP, C#
+
 ### Fronter
 
 Web developer & team leader March 2007 - November 2010. Oslo, Norway
@@ -119,6 +137,8 @@ Web developer & team leader March 2007 - November 2010. Oslo, Norway
 > In my role as a web developer and team leader at Fronter AS in Oslo, I focused on extending and implementing new features on the learning management system product. I advanced to team leader, overseeing the Scrum process for a six-person development team and an eleven-person team in total.
 
 _Achievements: Lead a developer team._
+
+_Relevant Technologies_: PHP
 
 
 ### Hontas AS
@@ -129,6 +149,8 @@ Systems Developer September 2005 - December 2006. Kongsvinger, Norway
 
 _Achievements: First professional job, learned a lot about how hospitals are runned._
 
+_Relevant Technologies_: PHP, C++
+
 ### Diakron Programvare
 
 CEO/Programmer May 2005 - June 2006. Kongsvinger, Norway
@@ -136,6 +158,8 @@ CEO/Programmer May 2005 - June 2006. Kongsvinger, Norway
 > Founded a software company during college, developing a PHP-based CMS, "ekorn::websystem", inspired by concepts from a JSP-based college project
 
 _Achievements: Learned to manage my own company._
+
+_Relevant Technologies_: PHP
 
 <div style="page-break-after: always;"></div>
 
@@ -192,18 +216,18 @@ Predefender.com · Sep 10, 2024 &rarr; Ongoing.
 
 ## Personal Projects
 
-### Wraithbind C2
+### Wraithbind C2 / Breach and Attack Simulation Platform
 
 _Ongoing · 2025 → present_
 
-Wraithbind is a proof-of-concept Command and Control (C2) and threat emulation platform, developed in Rust with a Node.js/Vue.js operator interface. It explores secure and resilient communication channels using **Nostr (NIP-04 encrypted messaging)** and **IPFS for decentralized bootstrap and resource distribution**.  
+Wraithbind is a proof-of-concept Command and Control (C2) and Breach and Attack Simulation platform, developed in Rust with a Node.js/Vue.js operator interface. It explores secure and resilient communication channels using **Nostr (NIP-04 encrypted messaging)** and **IPFS for decentralized bootstrap and resource distribution**.  
 The project demonstrates advanced knowledge of adversary emulation, modular agent design, and backend/API development, and forms part of the Predefender research portfolio aimed at enhancing detection and response capabilities. Not publicly available / available upon request.
 
 ### Sentifender Lexica Detectica
 
 _Ongoing · 2024 → present_
 
-Sentifender Lexica Detectica is a Streamlit-based application that provides a searchable reference for Microsoft Sentinel and Defender data tables and schemas. The app enables users-especially threat hunters-to explore relationships between tables with example Kusto queries and pivot points for easier navigation through the data landscape. Publicly available on [sentifender.streamlit.app](https://sentifender.streamlit.app/)
+Sentifender Lexica Detectica is a Streamlit-based application (Python) that provides a searchable reference for Microsoft Sentinel and Defender data tables and schemas. The app enables users-especially threat hunters-to explore relationships between tables with example Kusto queries and pivot points for easier navigation through the data landscape. Publicly available on [sentifender.streamlit.app](https://sentifender.streamlit.app/)
 
 ## Languages ## 
 
