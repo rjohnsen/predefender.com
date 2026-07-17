@@ -4,40 +4,56 @@ title = "About"
 weight = 6
 +++
 
-##   Roger Johnsen
+![Roger](/images/roger.jpg)
 
-![Roger](/images/roger-profile-small.png)
+## Roger Johnsen
 
-**Roger Johnsen** is a dedicated Information Security Consultant specializing in enhancing Blue Team capabilities. His expertise includes educating analysts, developing threat hunting strategies, software development, and ensuring the quality assurance of processes and routines.
+I work as a Lead Security Architect with a strong focus on security operations, threat hunting, threat-informed defense, detection engineering, and practical blue team capability building.
 
-**Roger** actively participates in Capture The Flag (CTF) competitions on platforms like the SANS Holiday Hack Challenge and Hack The Box, integrating the knowledge gained into his daily practice. In 2022, he was recognized as the runner-up for the best "Technical Answer" in the SANS Holiday Hack Challenge 2021 edition, earning a challenge coin for his outstanding performance.
+My background sits somewhere between security operations, software development, analyst enablement, and hands-on investigation work. I have worked as a SOC analyst, threat hunter, penetration tester, developer, consultant, trainer, and security leader. That mix has shaped how I think about security: good security work needs structure, technical depth, operational realism, and people who understand why they are doing what they are doing.
 
-Committed to achieving optimal outcomes in every situation, **Roger** emphasizes quality by leveraging his extensive expertise in system development and his professional experience.
+This site is part notebook, part field manual, and part attempt to explain how I think about threat hunting and defensive security. The goal is not to make threat hunting sound mysterious. The goal is to make it practical.
+
+I have also spent a fair amount of time in Capture The Flag environments such as the SANS Holiday Hack Challenge and Hack The Box. In the SANS Holiday Hack Challenge 2021 edition, I was runner-up for best “Technical Answer” and received a challenge coin for the write-up.
 
 ### Career highlights
 
-**Roger** studied electronics and electrical engineering, with a focus on programming, in high school. He then moved on to study programming and systems development in college. He started his first real job in 2005. Since 1997, he has been actively involved in the open-source community, particularly with Linux and FreeBSD. His professional career primarily spans the fields of security and systems development.
+I started out with electronics, electrical engineering, programming, Linux, FreeBSD, and open source. I have been involved with open-source systems since the late 1990s and started my professional career in 2005.
 
-| When | Title | Company | Roles |
+Over time, my work moved from software development and systems work into vulnerability management, penetration testing, SOC operations, threat hunting, detection engineering, training, security leadership, and architecture.
+
+| When | Title | Company | Focus |
 | ---- | ----- | ------- | ----- |
-| Jun 2025 - Curr | Lead Security Architect | Orkla IT | Threat Informed Defense | 
-| Mar 2024 - Jun 2025 | Head of Cyber Security Operations | Orkla IT | Leading the Cyber Security Department. | 
-| Oct 2023 - Jun 2025 | SOC Analyst | Orkla IT | SOC Lead Analyst, threat hunting, training | 
-| Sep 2020 - Sep 2023 | Senior Security Analyst / Head of Training | Defendable AS | SOC analyst, threat hunting, mentoring, education | 
-| Nov 2017 - Aug 2020 | Security Analyst MSS | Pedab Norge | Building SOC, SOC analyst, threat hunting, mentoring |
+| Jun 2025 - Cur | Lead Security Architect | Orkla IT | Threat-informed defense, threat hunting, resilience, security architecture |
+| Mar 2024 - Jun 2025 | Head of Cyber Security Operations | Orkla IT | Leading cyber security operations |
+| Oct 2023 - Jun 2025 | SOC Analyst | Orkla IT | SOC lead analyst, threat hunting, training |
+| Sep 2020 - Sep 2023 | Senior Security Analyst / Head of Training | Defendable AS | SOC analysis, threat hunting, mentoring, education |
+| Nov 2017 - Aug 2020 | Security Analyst MSS | Pedab Norge | SOC building, SOC analysis, threat hunting, mentoring |
 | Sep 2015 - Nov 2017 | Information Security Consultant | Watchcom Security Group AS | SOC, vulnerability management, threat hunting |
-| Feb 2015 - Aug 2015 | Senior Security Consultant | Protego AS | Penetration tester | 
-| Sep 2011 - Jan 2015 | Senior Systems ConsultantSenior Systems Consultant | Making Waves| Programmer, load tester, vulnerability management and pentesting. | 
-| Aug 2005 - Sep 2011 | Programmer | Various companies | Programmer, team lead, security goto guy, agile coach |
+| Feb 2015 - Aug 2015 | Senior Security Consultant | Protego AS | Penetration testing |
+| Sep 2011 - Jan 2015 | Senior Systems Consultant | Making Waves | Software development, load testing, vulnerability management, penetration testing |
+| Aug 2005 - Sep 2011 | Programmer | Various companies | Software development, team lead work, security, agile coaching |
 
-## Predefender
+## PreDefender
 
-**Predefender**, founded by **Roger Johnsen**, is a brand dedicated to advancing threat hunting capabilities in the cybersecurity industry. Through its flagship resource, the *PreDefender Threat Hunt Book*, the brand delivers in-depth insights on threat detection and incident response strategies, tailored specifically for Security Operations Center (SOC) professionals and blue team specialists. The guide explores essential methodologies such as the MITRE ATT&CK framework and the Lockheed Martin Kill Chain, while also offering practical, lab-based exercises designed to help analysts hone their skills. 
+**PreDefender** is my independent security brand and the home of the *PreDefender Threat Hunt Book*.
 
-PreDefender's mission is to foster high-quality threat hunting by seamlessly integrating detection engineering with programming expertise, empowering cybersecurity teams to stay ahead in an ever-evolving threat landscape.
+The Huntbook is a practical resource for threat hunters, SOC analysts, detection engineers, and blue team practitioners who want to understand how threat hunting actually works. It covers the thinking, methods, frameworks, tools, and tradecraft behind structured defensive investigation.
+
+The focus is practical:
+
+- how to think like a threat hunter
+- how to move from alerts to hypotheses
+- how to use frameworks without becoming a framework collector
+- how to connect threat intelligence, telemetry, detection logic, and investigation
+- how to turn hunting into better understanding, better detections, and better security operations
+
+PreDefender is not meant to be a generic cyber security blog. It is a place for structured notes, field experience, investigation logic, and blue team craft.
 
 ## Disclaimer
 
 {{% notice warning %}}
-All opinions expressed are solely those of **Roger** and do not represent the views of his past, current, or future employers. He does not accept unsolicited requests related to his employers via LinkedIn or other outlets; such requests will be declined without notice.
+All opinions expressed here are my own and do not represent the views of my past, current, or future employers.
+
+I do not accept unsolicited requests related to my employers through LinkedIn, e-mail, social media, or other channels. Such requests may be declined without notice.
 {{% /notice %}}

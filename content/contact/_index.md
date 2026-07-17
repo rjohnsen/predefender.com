@@ -4,16 +4,17 @@ title = "Contact"
 weight = 5
 +++
 
-> I'm usually available for a chat. Just scan the QR code below if you are using Whatsapp. Quick note: I won't accept voice or video calls without prior notification. [Please keep in mind, don't just say hi - state your question at the very start!](https://nohello.net/en/)
+The best way to reach me is by e-mail or LinkedIn.
 
-![Whatsapp](/images/whatsapp-qr.png)
+For professional inquiries, feedback, corrections, or questions related to the Huntbook, please use e-mail. LinkedIn is also fine if you prefer a quick introduction or professional message.
 
-## Other
+Please include the actual question or context in your first message. A short, clear message is much easier to respond to than just "hi".
+
+## Contact details
 
 | Media | Username / link |
 | -- | -- |
+| E-mail | [contact@predefender.com](mailto:contact@predefender.com) |
 | LinkedIn | [Public profile](https://www.linkedin.com/in/rogerjohnsen) |
-| Telegram  | [@rjohnsen](https://t.me/rjohnsen) |
-| X / Twitter | [@rogercbjohnsen](https://x.com/rogercbjohnsen) |
+| BlueSky | [rjohnsen.bsky.social](https://bsky.app/profile/rjohnsen.bsky.social) |
 | Mastodon | [@rjohnsen](https://social.vivaldi.net/@rjohnsen) |
-
