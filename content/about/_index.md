@@ -36,9 +36,9 @@ Over time, my work moved from software development and systems work into vulnera
 
 ## Predefender
 
-**Predefender** is my independent security brand and the home of the *Predefender Threat Hunt Book*.
+**Predefender** is my independent security brand and the home of the *Huntbook by Predefender*.
 
-The Huntbook is a practical resource for threat hunters, SOC analysts, detection engineers, and blue team practitioners who want to understand how threat hunting actually works. It covers the thinking, methods, frameworks, tools, and tradecraft behind structured defensive investigation.
+Huntbook by Predefender is a practical resource for threat hunters, SOC analysts, detection engineers, and blue team practitioners who want to understand how threat hunting actually works. It covers the thinking, methods, frameworks, tools, and tradecraft behind structured defensive investigation.
 
 The focus is practical:
 

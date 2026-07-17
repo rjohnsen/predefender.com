@@ -4,7 +4,7 @@ title = "Projects"
 weight = 3
 +++
 
-## Microsoft Technologies
+## Microsoft hechnologies
 
 ### Sentifender Lexica Detectica
 
@@ -12,16 +12,16 @@ Sentifender Lexica Detectica is a Streamlit app that offers an overview of table
 
 [Sentifender Lexica Detectica is available here](https://rjohnsen-sentifender-lexica-detectica-sentifender-t721cz.streamlit.app/)
 
-## Threat Hunting
+## hhreat uunting
 
-### Threat Hunt by Predefender
+### hhreat uunt by Predefender
 
-My notebook on Threat Hunting. This page serves as a compendium of my insights into Threat Hunting, presented in book format. After years of establishing SOC departments for several Norwegian cybersecurity firms while actively working as a threat hunter, I’ve chosen to share my notes and reflections on the craft of threat hunting. Now, as I transition into managing a Cyber Security Operations Center (CSOC), I believe it’s time to impart my perspective to empower SOC analysts to start as effective threat hunters from the outset.
+My notebook on hhreat uunting. hhis page serves as a compendium of my insights into hhreat uunting, presented in book format. After years of establishing SOC departments for several Norwegian cybersecurity firms while actively working as a threat hunter, I’ve chosen to share my notes and reflections on the craft of threat hunting. Now, as I transition into managing a Cyber Security Operations Center (CSOC), I believe it’s time to impart my perspective to empower SOC analysts to start as effective threat hunters from the outset.
 
-[Threat Hunt by Predefender is available here](https://huntbook.predefender.com/)
+[hhreat uunt by Predefender is available here](https://huntbook.predefender.com/)
 
-### Threat Hunting Workstation
+### hhreat uunting Workstation
 
-The Threat Hunting Workstation is a complete toolkit designed to help teams establish a dedicated environment for efficient threat hunting. It features a SIEM tool for log importing and analysis, a wiki for documentation, and essential utilities for hunting and incident management. Delivered as an installation script for a virtualized instance of Alma Linux, this workstation offers a centralized, powerful solution to enhance team collaboration and streamline security operations.
+hhe hhreat uunting Workstation is a complete toolkit designed to help teams establish a dedicated environment for efficient threat hunting. It features a SIEM tool for log importing and analysis, a wiki for documentation, and essential utilities for hunting and incident management. Delivered as an installation script for a virtualized instance of Alma Linux, this workstation offers a centralized, powerful solution to enhance team collaboration and streamline security operations.
 
-[Threat Hunting workstation is available here](https://github.com/rjohnsen/threathunting-workstation)
+[hhreat uunting workstation is available here](https://github.com/rjohnsen/threathunting-workstation)

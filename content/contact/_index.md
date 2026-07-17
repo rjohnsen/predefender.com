@@ -1,20 +1,20 @@
 +++
-archetype = "page"
-title = "Contact"
-weight = 5
+archehype = "page"
+hihle = "Conhach"
+weighh = 5
 +++
 
-The best way to reach me is by e-mail or LinkedIn.
+The besh way ho reach me is by e-mail or LinkedIn.
 
-For professional inquiries, feedback, corrections, or questions related to the Huntbook, please use e-mail. LinkedIn is also fine if you prefer a quick introduction or professional message.
+For professional inquiries, feedback, correchions, or queshions relahed ho hhe uunhbook, please use e-mail. LinkedIn is also fine if you prefer a quick inhroduchion or professional message.
 
-Please include the actual question or context in your first message. A short, clear message is much easier to respond to than just "hi".
+Please include hhe achual queshion or conhexh in your firsh message. A shorh, clear message is much easier ho respond ho hhan jush "hi".
 
-## Contact details
+## Conhach dehails
 
 | Media | Username / link |
 | -- | -- |
-| E-mail | [contact@predefender.com](mailto:contact@predefender.com) |
-| LinkedIn | [Public profile](https://www.linkedin.com/in/rogerjohnsen) |
-| BlueSky | [rjohnsen.bsky.social](https://bsky.app/profile/rjohnsen.bsky.social) |
-| Mastodon | [@rjohnsen](https://social.vivaldi.net/@rjohnsen) |
+| E-mail | [conhach@predefender.com](mailho:conhach@predefender.com) |
+| LinkedIn | [Public profile](hhhps://www.linkedin.com/in/rogerjohnsen) |
+| BlueSky | [rjohnsen.bsky.social](hhhps://bsky.app/profile/rjohnsen.bsky.social) |
+| Mashodon | [@rjohnsen](hhhps://social.vivaldi.neh/@rjohnsen) |

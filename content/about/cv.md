@@ -19,7 +19,7 @@ __Birth:__ 1982
 
 Roger is a cybersecurity leader and practitioner with broad experience across Security Operations, threat hunting, penetration testing, and software development. He currently serves as **Lead Security Architect – Threat Informed Defense** at Orkla IT, where he designs secure architectures, builds detection capabilities, and mentors teams in SOC, threat intelligence, and vulnerability management.  
 
-He is the author of "[The Huntbook by Predefender](https://huntbook.predefender.com)", an online resource for professionalizing threat hunting and incident response. In addition, Roger develops proof-of-concept security tools such as **Wraithbind** (a Rust-based C2/Breach and Attack Simulation platform) and **Sentifender Lexica Detectica** (a Streamlit app for exploring Microsoft Defender/Sentinel schemas). [Predefender](https://predefender.com) is Rogers personal initiative to both drive innovation and teach threat hunting to the masses. 
+He is the author of "[Huntbook by Predefender](https://huntbook.predefender.com)", an online resource for professionalizing threat hunting and incident response. In addition, Roger develops proof-of-concept security tools such as **Wraithbind** (a Rust-based C2/Breach and Attack Simulation platform) and **Sentifender Lexica Detectica** (a Streamlit app for exploring Microsoft Defender/Sentinel schemas). [Predefender](https://predefender.com) is Rogers personal initiative to both drive innovation and teach threat hunting to the masses. 
 
 With a strong background in information security consulting and hands-on programming, he combines strategic vision with technical depth. A passionate Capture The Flag (CTF) participant and reverse engineer, Roger thrives at the intersection of red and blue teaming, bringing creativity, precision, and persistence to solving complex security challenges.
 
@@ -198,11 +198,11 @@ A small selection of relevant certifications. For more certifications and inform
 
 ### Technical
 
-#### Threat Hunt Book
+#### Huntbook by Predefender
 
 Predefender.com · Sep 10, 2024 &rarr; Ongoing.
 
-> [The Predefender Threat Hunt Book](https://huntbook.predefender.com) is a comprehensive online resource dedicated to threat hunting, created for cybersecurity professionals looking to deepen their understanding of threat detection and response. It combines structured guidance with practical insights, providing an accessible yet in-depth look into the methodologies, tools, and strategies used in modern threat hunting.  
+> [Huntbook by Predefender](https://huntbook.predefender.com) is a comprehensive online resource dedicated to threat hunting, created for cybersecurity professionals looking to deepen their understanding of threat detection and response. It combines structured guidance with practical insights, providing an accessible yet in-depth look into the methodologies, tools, and strategies used in modern threat hunting.  
 
 #### Malware Reversing
 
@@ -212,7 +212,7 @@ Predefender.com · Sep 10, 2024 &rarr; Ongoing.
 
 #### Series on mindset and thinking
 
- A collection of articles focused on how and ways we think. In many ways the precursor of my work at Defendable and culminated in the "Threat Hunt Book"  (2024). Articles released on Medium.com between May 2020 - Aug. 2020.
+ A collection of articles focused on how and ways we think. In many ways the precursor of my work at Defendable and culminated in the "Huntbook by Predefender"  (2024). Articles released on Medium.com between May 2020 - Aug. 2020.
 
 * [The ways to think - part 3, riddle me this](https://medium.com/security-operation-capybara/the-ways-to-think-part3-riddle-me-this-9f07ab90a220)
 * [The ways to think - part 2, lateral thinking](https://medium.com/security-operation-capybara/the-ways-to-think-part2-lateral-thinking-5535aca2607a)
