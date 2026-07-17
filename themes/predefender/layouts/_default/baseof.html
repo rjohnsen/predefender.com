@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="{{ site.Language.LanguageCode | default "en" }}">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} - {{ site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ .Description | default site.Params.description }}">
+  <link rel="stylesheet" href="{{ "css/predefender.css" | relURL }}">
+</head>
+<body class="{{ if .IsHome }}is-home{{ else }}is-content{{ end }}">
+{{ if not .IsHome }}{{ partial "site-header.html" . }}<div class="pd-layout">{{ partial "sidebar.html" . }}<main class="pd-content" id="main-content">{{ block "main" . }}{{ end }}</main></div>{{ else }}{{ block "main" . }}{{ end }}{{ end }}
+{{ partial "site-footer.html" . }}
+{{ if .HasShortcode "mermaid" }}<script src="{{ "js/mermaid.min.js" | relURL }}"></script><script>mermaid.initialize({startOnLoad:true,theme:"neutral"});</script>{{ end }}
+<script src="{{ "js/predefender.js" | relURL }}"></script>
+</body></html>

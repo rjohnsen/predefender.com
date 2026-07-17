@@ -1,0 +1,1 @@
+document.querySelectorAll('.pd-menu-button').forEach(function(button){button.addEventListener('click',function(){var open=document.body.classList.toggle('menu-open');button.setAttribute('aria-expanded',String(open));});});

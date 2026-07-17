@@ -1,0 +1,3 @@
+{{ define "main" }}
+<article class="pd-article"><header class="pd-article-head"><p class="pd-kicker">{{ .Section | default "Predefender" }}</p><h1>{{ .Title }}</h1>{{ with .Description }}<p class="pd-intro">{{ . }}</p>{{ end }}</header><div class="pd-prose">{{ .Content }}</div></article>
+{{ end }}

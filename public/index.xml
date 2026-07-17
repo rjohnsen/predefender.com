@@ -1,54 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Predefender Cyber Hunting</title>
-    <link>http://localhost:1313/index.html</link>
-    <description>Traditional Security Operations Centers (SOCs) often operate reactively, stuck in a cycle of responding to threats as they appear. I’ve seen it firsthand—the stress, the constant firefighting, the sense that you’re always one step behind. But there’s a better way.&#xA;Imagine transforming that reactive approach into something proactive. Instead of just responding to threats, you’re anticipating them, neutralizing them before they even have a chance to materialize. That’s what these training programs are designed for: to empower SOC analysts to think and act like true threat hunters—skilled, confident, and always ahead of the game.</description>
+    <title>Predefender</title>
+    <link>http://localhost:40567/</link>
+    <description>Recent content on Predefender</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 18 Jan 2025 14:09:39 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:40567/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Articles</title>
-      <link>http://localhost:1313/articles/index.html</link>
-      <pubDate>Sun, 29 Dec 2024 10:37:22 +0100</pubDate>
-      <guid>http://localhost:1313/articles/index.html</guid>
-      <description>Title Summary Published Date The Malware That Wasnt This article explores my journey of reverse engineering a mysterious malware sample, from initial analysis to uncovering its hidden operations. 2024-12-29</description>
-    </item>
-    <item>
-      <title>CTF</title>
-      <link>http://localhost:1313/ctf/index.html</link>
+      <title>Silverplatter</title>
+      <link>http://localhost:40567/ctf/tryhackme/silverplatter/</link>
       <pubDate>Sat, 18 Jan 2025 14:09:39 +0100</pubDate>
-      <guid>http://localhost:1313/ctf/index.html</guid>
-      <description>What is CTF (Capture the Flag) and Why is it Important for Threat Hunters? Capture the Flag (CTF) competitions are cybersecurity challenges designed to test participants’ skills in various domains such as vulnerability exploitation, reverse engineering, cryptography, digital forensics, and network security. These competitions are often presented as puzzles or scenarios where participants act as defenders, attackers, or investigators to “capture” digital flags hidden within systems or files.&#xA;For threat hunters, participating in CTFs is invaluable for several reasons:</description>
+      <guid>http://localhost:40567/ctf/tryhackme/silverplatter/</guid>
+      <description>Revised Date Author Comment 18.01.2025 Roger Johnsen Article added Introduction Think you&amp;rsquo;ve got what it takes to outsmart the Hack Smarter Security team? They claim to be unbeatable, and now it&amp;rsquo;s your chance to prove them wrong. Dive into their web server, find the hidden flags, and show the world your elite hacking skills. Good luck, and may the best hacker win! But beware, this won&amp;rsquo;t be a walk in the digital park.</description>
     </item>
     <item>
-      <title>Projects</title>
-      <link>http://localhost:1313/projects/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/index.html</guid>
-      <description>Microsoft Technologies Sentifender Lexica Detectica Sentifender Lexica Detectica is a Streamlit app that offers an overview of tables in Microsoft Sentinel and Defender, complete with pivot points between the tables and Kusto pivot examples. By using this tool you will get a better understanding on how you can move between the various tables.&#xA;Sentifender Lexica Detectica is available here Threat Hunting Threat Hunt by Predefender My notebook on Threat Hunting. This page serves as a compendium of my insights into Threat Hunting, presented in book format. After years of establishing SOC departments for several Norwegian cybersecurity firms while actively working as a threat hunter, I’ve chosen to share my notes and reflections on the craft of threat hunting. Now, as I transition into managing a Cyber Security Operations Center (CSOC), I believe it’s time to impart my perspective to empower SOC analysts to start as effective threat hunters from the outset.</description>
+      <title>Light</title>
+      <link>http://localhost:40567/ctf/tryhackme/light/</link>
+      <pubDate>Sat, 18 Jan 2025 09:36:24 +0100</pubDate>
+      <guid>http://localhost:40567/ctf/tryhackme/light/</guid>
+      <description>Revised Date Author Comment 19.01.2025 Roger Johnsen Article added Introduction I am working on a database application called Light! Would you like to try it out? If so, the application is running on port 1337. You can connect to it using nc 10.10.147.110 1337 You can use the username smokey in order to get started.&#xA;Note: Please allow the service 2 - 3 minutes to fully start before connecting to it.</description>
     </item>
     <item>
-      <title>Resources</title>
-      <link>http://localhost:1313/resources/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/resources/index.html</guid>
-      <description>CTF Writeups SANS Holiday Hack Challenge 2024 The SANS Holiday Hack Challenge is an annual cybersecurity event featuring interactive challenges and a captivating storyline. Participants solve puzzles, tackle cybersecurity scenarios, and explore digital forensics, penetration testing, and other topics. It is designed for all skill levels, from beginners to seasoned professionals. The event is free and encourages collaboration, creativity, and learning. It culminates in a festive, gamified environment that combines technical training with holiday cheer.</description>
-    </item>
-    <item>
-      <title>Contact</title>
-      <link>http://localhost:1313/contact/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/index.html</guid>
-      <description>I’m usually available for a chat. Just scan the QR code below if you are using Whatsapp. Quick note: I won’t accept voice or video calls without prior notification. Please keep in mind, don’t just say hi - state your question at the very start! Other Media Username / link LinkedIn Public profile Telegram @rjohnsen X / Twitter @rogercbjohnsen Mastodon @rjohnsen</description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/index.html</link>
+      <title>curriculum vitae</title>
+      <link>http://localhost:40567/about/cv/</link>
       <pubDate>Sun, 12 Jan 2025 08:13:26 +0100</pubDate>
-      <guid>http://localhost:1313/about/index.html</guid>
-      <description>Roger Johnsen Roger Johnsen is a dedicated Information Security Consultant specializing in enhancing Blue Team capabilities. His expertise includes educating analysts, developing threat hunting strategies, software development, and ensuring the quality assurance of processes and routines.&#xA;Roger actively participates in Capture The Flag (CTF) competitions on platforms like the SANS Holiday Hack Challenge and Hack The Box, integrating the knowledge gained into his daily practice. In 2022, he was recognized as the runner-up for the best “Technical Answer” in the SANS Holiday Hack Challenge 2021 edition, earning a challenge coin for his outstanding performance.</description>
+      <guid>http://localhost:40567/about/cv/</guid>
+      <description>Roger Cato Bergheim Johnsen Lead Security Architect - Threat Informed Defense&#xA;Location: Kongsvinger &amp;amp; Oslo, Norway&#xA;Birth: 1982&#xA;Summary Roger is a cybersecurity leader and practitioner with broad experience across Security Operations, threat hunting, penetration testing, and software development. He currently serves as Lead Security Architect – Threat Informed Defense at Orkla IT, where he designs secure architectures, builds detection capabilities, and mentors teams in SOC, threat intelligence, and vulnerability management.</description>
+    </item>
+    <item>
+      <title>The Malware That Wasnt</title>
+      <link>http://localhost:40567/articles/the-malware-that-wasnt/</link>
+      <pubDate>Sun, 29 Dec 2024 10:37:22 +0100</pubDate>
+      <guid>http://localhost:40567/articles/the-malware-that-wasnt/</guid>
+      <description>This article explores my journey of reverse engineering a mysterious malware sample, from initial analysis to uncovering its hidden operations.</description>
     </item>
   </channel>
 </rss>

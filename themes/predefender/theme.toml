@@ -1,0 +1,8 @@
+name = "Predefender"
+license = "MIT"
+description = "A modern personal-brand theme for Predefender."
+homepage = "https://predefender.com/"
+min_version = "0.121.0"
+[author]
+  name = "Roger Johnsen"
+  homepage = "https://predefender.com/"

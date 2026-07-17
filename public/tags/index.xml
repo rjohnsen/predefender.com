@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags - Predefender Cyber Hunting</title>
-    <link>http://localhost:1313/tags/index.html</link>
-    <description></description>
+    <title>Tags on Predefender</title>
+    <link>http://localhost:40567/tags/</link>
+    <description>Recent content in Tags on Predefender</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 18 Jan 2025 14:09:39 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:40567/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Tag - Ctf</title>
-      <link>http://localhost:1313/tags/ctf/index.html</link>
+      <title>Ctf</title>
+      <link>http://localhost:40567/tags/ctf/</link>
       <pubDate>Sat, 18 Jan 2025 14:09:39 +0100</pubDate>
-      <guid>http://localhost:1313/tags/ctf/index.html</guid>
+      <guid>http://localhost:40567/tags/ctf/</guid>
       <description></description>
     </item>
     <item>
-      <title>Tag - Tryhackme</title>
-      <link>http://localhost:1313/tags/tryhackme/index.html</link>
+      <title>Tryhackme</title>
+      <link>http://localhost:40567/tags/tryhackme/</link>
       <pubDate>Sat, 18 Jan 2025 14:09:39 +0100</pubDate>
-      <guid>http://localhost:1313/tags/tryhackme/index.html</guid>
+      <guid>http://localhost:40567/tags/tryhackme/</guid>
       <description></description>
     </item>
     <item>
-      <title>Tag - Writeup</title>
-      <link>http://localhost:1313/tags/writeup/index.html</link>
+      <title>Writeup</title>
+      <link>http://localhost:40567/tags/writeup/</link>
       <pubDate>Sat, 18 Jan 2025 14:09:39 +0100</pubDate>
-      <guid>http://localhost:1313/tags/writeup/index.html</guid>
+      <guid>http://localhost:40567/tags/writeup/</guid>
       <description></description>
     </item>
     <item>
-      <title>Tag - Analysis</title>
-      <link>http://localhost:1313/tags/analysis/index.html</link>
+      <title>Analysis</title>
+      <link>http://localhost:40567/tags/analysis/</link>
       <pubDate>Sun, 29 Dec 2024 10:37:22 +0100</pubDate>
-      <guid>http://localhost:1313/tags/analysis/index.html</guid>
+      <guid>http://localhost:40567/tags/analysis/</guid>
       <description></description>
     </item>
     <item>
-      <title>Tag - Education</title>
-      <link>http://localhost:1313/tags/education/index.html</link>
+      <title>Education</title>
+      <link>http://localhost:40567/tags/education/</link>
       <pubDate>Sun, 29 Dec 2024 10:37:22 +0100</pubDate>
-      <guid>http://localhost:1313/tags/education/index.html</guid>
+      <guid>http://localhost:40567/tags/education/</guid>
       <description></description>
     </item>
     <item>
-      <title>Tag - Malware</title>
-      <link>http://localhost:1313/tags/malware/index.html</link>
+      <title>Malware</title>
+      <link>http://localhost:40567/tags/malware/</link>
       <pubDate>Sun, 29 Dec 2024 10:37:22 +0100</pubDate>
-      <guid>http://localhost:1313/tags/malware/index.html</guid>
+      <guid>http://localhost:40567/tags/malware/</guid>
       <description></description>
     </item>
     <item>
-      <title>Tag - Python</title>
-      <link>http://localhost:1313/tags/python/index.html</link>
+      <title>Python</title>
+      <link>http://localhost:40567/tags/python/</link>
       <pubDate>Sun, 29 Dec 2024 10:37:22 +0100</pubDate>
-      <guid>http://localhost:1313/tags/python/index.html</guid>
+      <guid>http://localhost:40567/tags/python/</guid>
       <description></description>
     </item>
     <item>
-      <title>Tag - Reversing</title>
-      <link>http://localhost:1313/tags/reversing/index.html</link>
+      <title>Reversing</title>
+      <link>http://localhost:40567/tags/reversing/</link>
       <pubDate>Sun, 29 Dec 2024 10:37:22 +0100</pubDate>
-      <guid>http://localhost:1313/tags/reversing/index.html</guid>
+      <guid>http://localhost:40567/tags/reversing/</guid>
       <description></description>
     </item>
   </channel>

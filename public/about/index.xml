@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About - Predefender Cyber Hunting</title>
-    <link>http://localhost:1313/about/index.html</link>
-    <description>Roger Johnsen Roger Johnsen is a dedicated Information Security Consultant specializing in enhancing Blue Team capabilities. His expertise includes educating analysts, developing threat hunting strategies, software development, and ensuring the quality assurance of processes and routines.&#xA;Roger actively participates in Capture The Flag (CTF) competitions on platforms like the SANS Holiday Hack Challenge and Hack The Box, integrating the knowledge gained into his daily practice. In 2022, he was recognized as the runner-up for the best “Technical Answer” in the SANS Holiday Hack Challenge 2021 edition, earning a challenge coin for his outstanding performance.</description>
+    <title>About on Predefender</title>
+    <link>http://localhost:40567/about/</link>
+    <description>Recent content in About on Predefender</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 12 Jan 2025 08:13:26 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:40567/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>curriculum vitae</title>
-      <link>http://localhost:1313/about/cv-2/index.html</link>
+      <link>http://localhost:40567/about/cv/</link>
       <pubDate>Sun, 12 Jan 2025 08:13:26 +0100</pubDate>
-      <guid>http://localhost:1313/about/cv-2/index.html</guid>
-      <description>Roger Cato Bergheim Johnsen Lead Security Architect - Threat Informed Defense&#xA;Location: Kongsvinger &amp; Oslo, Norway&#xA;Birth: 1982&#xA;Summary Roger is a cybersecurity leader and practitioner with broad experience across Security Operations, threat hunting, penetration testing, and software development. He currently serves as Lead Security Architect – Threat Informed Defense at Orkla IT, where he designs secure architectures, builds detection capabilities, and mentors teams in SOC, threat intelligence, and vulnerability management.</description>
-    </item>
-    <item>
-      <title>curriculum vitae</title>
-      <link>http://localhost:1313/about/cv/index.html</link>
-      <pubDate>Sun, 12 Jan 2025 08:13:26 +0100</pubDate>
-      <guid>http://localhost:1313/about/cv/index.html</guid>
-      <description>Roger Cato Bergheim Johnsen Head of Cyber Security Operations &amp; Threat Hunter&#xA;Location: Kongsvinger &amp; Oslo, Norway&#xA;Birth: 1982&#xA;Summary Roger is the author of “The Huntbook by Predefender ”, a comprehensive guide designed to support cybersecurity professionals in threat hunting and incident response. With a background in Information Security Consulting, he specializes in strengthening Blue Team capabilities, developing threat hunting strategies, and refining software development and quality assurance processes. As the Head of Security Operations at Orkla IT, Roger applies his expertise to protect the organization’s digital assets and enhance its security posture. A passionate Capture The Flag (CTF) participant, Roger actively competes in platforms like the SANS Holiday Hack Challenge, Hack The Box, and TryHackMe. His dedication to these activities earned him a runner-up position for the best “Technical Answer” in the SANS Holiday Hack Challenge 2021, along with a challenge coin for his achievement. Driven by a commitment to quality, Roger leverages his extensive knowledge of system development and professional experience to tackle complex cybersecurity challenges with precision</description>
+      <guid>http://localhost:40567/about/cv/</guid>
+      <description>Roger Cato Bergheim Johnsen Lead Security Architect - Threat Informed Defense&#xA;Location: Kongsvinger &amp;amp; Oslo, Norway&#xA;Birth: 1982&#xA;Summary Roger is a cybersecurity leader and practitioner with broad experience across Security Operations, threat hunting, penetration testing, and software development. He currently serves as Lead Security Architect – Threat Informed Defense at Orkla IT, where he designs secure architectures, builds detection capabilities, and mentors teams in SOC, threat intelligence, and vulnerability management.</description>
     </item>
   </channel>
 </rss>
