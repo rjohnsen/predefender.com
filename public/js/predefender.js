@@ -2,7 +2,7 @@
   var root=document.documentElement;
   function current(){return root.dataset.theme||'light';}
   function apply(theme,persist){
-    root.dataset.theme=theme;root.style.colorScheme=theme;
+    root.dataset.theme=theme;root.style.colorScheme=theme;root.classList.toggle('pd-dark',theme==='dark');var meta=document.querySelector('meta[name="theme-color"]');if(meta)meta.setAttribute('content',theme==='dark'?'#07111f':'#ffffff');
     if(persist){try{localStorage.setItem('predefender-theme',theme);}catch(e){}}
     document.querySelectorAll('.pd-theme-toggle').forEach(function(button){var dark=theme==='dark';button.setAttribute('aria-label',dark?'Use light mode':'Use dark mode');button.setAttribute('aria-pressed',String(dark));var label=button.querySelector('.pd-theme-label');if(label){label.textContent=dark?'Light':'Dark';}});
   }

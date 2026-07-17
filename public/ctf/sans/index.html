@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="en-us">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="dark light"><meta name="theme-color" content="#07111f">
   <title>SANS HHC - Predefender</title>
   <meta name="description" content="Online Threat Hunting">
-  <script>(function(){try{var saved=localStorage.getItem('predefender-theme');var theme=saved||'dark';document.documentElement.dataset.theme=theme;document.documentElement.style.colorScheme=theme;}catch(e){}})();</script>
-  <link rel="stylesheet" href="/css/predefender.css">
+  <script>(function(){try{var saved=localStorage.getItem('predefender-theme');if(saved!=='light'&&saved!=='dark')saved=null;var theme=saved||'dark';document.documentElement.dataset.theme=theme;document.documentElement.style.colorScheme=theme;}catch(e){}})();</script>
+  <link rel="stylesheet" href="/css/predefender.css?v=1784287541">
 </head>
 <body class="is-content">
 <header class="pd-site-header"><div class="pd-site-header-inner"><a class="pd-brand" href="/"><span class="pd-mark"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span>Predefender</span></a><nav><a href="/articles/">Articles</a><a href="/ctf/" class="active">CTF</a><a href="/projects/">Projects</a><a href="/resources/">Resources</a><a href="/about/">About</a><a href="/contact/"></a></nav><div class="pd-header-actions"><button class="pd-theme-toggle" type="button" aria-label="Use dark mode" title="Change color mode">
@@ -23,5 +23,5 @@
 </main></div>
 <footer class="pd-inner-footer"><div class="pd-inner-footer-content"><span>Predefender</span><p>Independent thinking for proactive defenders.</p><small>&copy; 2026 Roger Johnsen</small></div></footer>
 
-<script src="/js/predefender.js"></script>
+<script src="/js/predefender.js?v=1784287541"></script>
 </body></html>
