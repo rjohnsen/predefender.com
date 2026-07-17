@@ -1,3 +1,3 @@
 {{ define "main" }}
-<article class="pd-article"><header class="pd-article-head"><p class="pd-kicker">Explore</p><h1>{{ .Title }}</h1></header><div class="pd-prose">{{ .Content }}</div>{{ if and .Pages (ne .Section "articles") }}<div class="pd-page-grid">{{ range .Pages.ByWeight }}<a href="{{ .RelPermalink }}"><small>{{ .Section }}</small><h2>{{ .Title }}</h2><span>Explore &rarr;</span></a>{{ end }}</div>{{ end }}</article>
+<article class="pd-article"><header class="pd-article-head"><p class="pd-kicker">Explore</p><h1>{{ .Title }}</h1></header><div class="pd-prose">{{ .Content }}</div>{{ if and .Pages (ne .Section "articles") }}<div class="pd-page-grid">{{ range where .Pages.ByWeight "Params.hidden" "ne" true }}<a href="{{ .RelPermalink }}"><small>{{ .Section }}</small><h2>{{ .Title }}</h2><span>Explore &rarr;</span></a>{{ end }}</div>{{ end }}</article>
 {{ end }}

@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Predefender</title>
-    <link>http://localhost:33567/tags/</link>
+    <link>https://predefender.com/tags/</link>
     <description>Recent content in Tags on Predefender</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 18 Jan 2025 14:09:39 +0100</lastBuildDate>
-    <atom:link href="http://localhost:33567/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://predefender.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ctf</title>
-      <link>http://localhost:33567/tags/ctf/</link>
+      <link>https://predefender.com/tags/ctf/</link>
       <pubDate>Sat, 18 Jan 2025 14:09:39 +0100</pubDate>
-      <guid>http://localhost:33567/tags/ctf/</guid>
+      <guid>https://predefender.com/tags/ctf/</guid>
       <description></description>
     </item>
     <item>
       <title>Tryhackme</title>
-      <link>http://localhost:33567/tags/tryhackme/</link>
+      <link>https://predefender.com/tags/tryhackme/</link>
       <pubDate>Sat, 18 Jan 2025 14:09:39 +0100</pubDate>
-      <guid>http://localhost:33567/tags/tryhackme/</guid>
+      <guid>https://predefender.com/tags/tryhackme/</guid>
       <description></description>
     </item>
     <item>
       <title>Writeup</title>
-      <link>http://localhost:33567/tags/writeup/</link>
+      <link>https://predefender.com/tags/writeup/</link>
       <pubDate>Sat, 18 Jan 2025 14:09:39 +0100</pubDate>
-      <guid>http://localhost:33567/tags/writeup/</guid>
+      <guid>https://predefender.com/tags/writeup/</guid>
       <description></description>
     </item>
     <item>
       <title>Analysis</title>
-      <link>http://localhost:33567/tags/analysis/</link>
+      <link>https://predefender.com/tags/analysis/</link>
       <pubDate>Sun, 29 Dec 2024 10:37:22 +0100</pubDate>
-      <guid>http://localhost:33567/tags/analysis/</guid>
+      <guid>https://predefender.com/tags/analysis/</guid>
       <description></description>
     </item>
     <item>
       <title>Education</title>
-      <link>http://localhost:33567/tags/education/</link>
+      <link>https://predefender.com/tags/education/</link>
       <pubDate>Sun, 29 Dec 2024 10:37:22 +0100</pubDate>
-      <guid>http://localhost:33567/tags/education/</guid>
+      <guid>https://predefender.com/tags/education/</guid>
       <description></description>
     </item>
     <item>
       <title>Malware</title>
-      <link>http://localhost:33567/tags/malware/</link>
+      <link>https://predefender.com/tags/malware/</link>
       <pubDate>Sun, 29 Dec 2024 10:37:22 +0100</pubDate>
-      <guid>http://localhost:33567/tags/malware/</guid>
+      <guid>https://predefender.com/tags/malware/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>http://localhost:33567/tags/python/</link>
+      <link>https://predefender.com/tags/python/</link>
       <pubDate>Sun, 29 Dec 2024 10:37:22 +0100</pubDate>
-      <guid>http://localhost:33567/tags/python/</guid>
+      <guid>https://predefender.com/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Reversing</title>
-      <link>http://localhost:33567/tags/reversing/</link>
+      <link>https://predefender.com/tags/reversing/</link>
       <pubDate>Sun, 29 Dec 2024 10:37:22 +0100</pubDate>
-      <guid>http://localhost:33567/tags/reversing/</guid>
+      <guid>https://predefender.com/tags/reversing/</guid>
       <description></description>
     </item>
   </channel>

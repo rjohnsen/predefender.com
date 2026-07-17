@@ -2,69 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:33567/articles/</loc>
+    <loc>https://predefender.com/articles/</loc>
     <lastmod>2024-12-29T10:37:22+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:33567/ctf/</loc>
+    <loc>https://predefender.com/ctf/</loc>
     <lastmod>2026-07-17T12:31:05+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:33567/projects/</loc>
+    <loc>https://predefender.com/projects/</loc>
   </url><url>
-    <loc>http://localhost:33567/resources/</loc>
+    <loc>https://predefender.com/resources/</loc>
   </url><url>
-    <loc>http://localhost:33567/contact/</loc>
+    <loc>https://predefender.com/contact/</loc>
   </url><url>
-    <loc>http://localhost:33567/about/</loc>
+    <loc>https://predefender.com/about/</loc>
     <lastmod>2025-01-12T08:13:26+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:33567/</loc>
+    <loc>https://predefender.com/</loc>
     <lastmod>2026-07-17T12:31:05+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:33567/ctf/sans/</loc>
+    <loc>https://predefender.com/ctf/sans/</loc>
     <lastmod>2026-07-17T12:31:05+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:33567/tags/ctf/</loc>
+    <loc>https://predefender.com/tags/ctf/</loc>
     <lastmod>2025-01-18T14:09:39+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:33567/ctf/tryhackme/silverplatter/</loc>
+    <loc>https://predefender.com/ctf/tryhackme/silverplatter/</loc>
     <lastmod>2025-01-18T14:09:39+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:33567/tags/</loc>
+    <loc>https://predefender.com/tags/</loc>
     <lastmod>2025-01-18T14:09:39+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:33567/tags/tryhackme/</loc>
+    <loc>https://predefender.com/tags/tryhackme/</loc>
     <lastmod>2025-01-18T14:09:39+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:33567/tags/writeup/</loc>
+    <loc>https://predefender.com/tags/writeup/</loc>
     <lastmod>2025-01-18T14:09:39+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:33567/ctf/tryhackme/light/</loc>
+    <loc>https://predefender.com/ctf/tryhackme/light/</loc>
     <lastmod>2025-01-18T09:36:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:33567/ctf/tryhackme/</loc>
+    <loc>https://predefender.com/ctf/tryhackme/</loc>
     <lastmod>2025-01-18T09:28:16+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:33567/about/cv/</loc>
+    <loc>https://predefender.com/about/cv/</loc>
     <lastmod>2025-01-12T08:13:26+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:33567/tags/analysis/</loc>
+    <loc>https://predefender.com/tags/analysis/</loc>
     <lastmod>2024-12-29T10:37:22+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:33567/tags/education/</loc>
+    <loc>https://predefender.com/tags/education/</loc>
     <lastmod>2024-12-29T10:37:22+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:33567/tags/malware/</loc>
+    <loc>https://predefender.com/tags/malware/</loc>
     <lastmod>2024-12-29T10:37:22+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:33567/tags/python/</loc>
+    <loc>https://predefender.com/tags/python/</loc>
     <lastmod>2024-12-29T10:37:22+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:33567/tags/reversing/</loc>
+    <loc>https://predefender.com/tags/reversing/</loc>
     <lastmod>2024-12-29T10:37:22+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:33567/articles/the-malware-that-wasnt/</loc>
+    <loc>https://predefender.com/articles/the-malware-that-wasnt/</loc>
     <lastmod>2024-12-29T10:37:22+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:33567/categories/</loc>
+    <loc>https://predefender.com/categories/</loc>
   </url>
 </urlset>
