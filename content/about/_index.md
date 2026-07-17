@@ -34,9 +34,9 @@ Over time, my work moved from software development and systems work into vulnera
 | Sep 2011 - Jan 2015 | Senior Systems Consultant | Making Waves | Software development, load testing, vulnerability management, penetration testing |
 | Aug 2005 - Sep 2011 | Programmer | Various companies | Software development, team lead work, security, agile coaching |
 
-## PreDefender
+## Predefender
 
-**PreDefender** is my independent security brand and the home of the *PreDefender Threat Hunt Book*.
+**Predefender** is my independent security brand and the home of the *Predefender Threat Hunt Book*.
 
 The Huntbook is a practical resource for threat hunters, SOC analysts, detection engineers, and blue team practitioners who want to understand how threat hunting actually works. It covers the thinking, methods, frameworks, tools, and tradecraft behind structured defensive investigation.
 
@@ -48,7 +48,7 @@ The focus is practical:
 - how to connect threat intelligence, telemetry, detection logic, and investigation
 - how to turn hunting into better understanding, better detections, and better security operations
 
-PreDefender is not meant to be a generic cyber security blog. It is a place for structured notes, field experience, investigation logic, and blue team craft.
+Predefender is not meant to be a generic cyber security blog. It is a place for structured notes, field experience, investigation logic, and blue team craft.
 
 ## Disclaimer
 
