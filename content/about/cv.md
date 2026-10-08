@@ -5,237 +5,185 @@ draft: false
 hidden: true
 ---
 
-## Roger Cato Bergheim Johnsen
+# Roger Cato Bergheim Johnsen
 
-__Lead Security Architect - Threat Informed Defense__
+**Lead Security Architect | Threat-Informed Defence | Security Operations**
 
-__Location:__ Kongsvinger & Oslo, Norway
+| Location | Email | Phone |
+|---|---|---|
+| Kongsvinger & Oslo, Norway | [rogercbjohnsen@gmail.com](mailto:rogercbjohnsen@gmail.com) | +47 918 00 451 |
+| **LinkedIn** | **Website** | |
+| [linkedin.com/in/rogerjohnsen](https://www.linkedin.com/in/rogerjohnsen) | [predefender.com](https://predefender.com) | |
 
-__Birth:__ 1982
+## Professional Summary
 
----
+I have worked with technology and security for more than twenty years. I started as a software developer and moved through application security, penetration testing, vulnerability management, SOC operations, threat hunting, security leadership and architecture.
 
-## Summary
+The common thread is practical security and curiosity. I want to know what an attacker can actually do, what we can observe and what we are able to detect and respond to. Controls and architecture are useful, but I care about whether the capability can be demonstrated in practice.
 
-Roger is a cybersecurity leader and practitioner with broad experience across Security Operations, threat hunting, penetration testing, and software development. He currently serves as **Lead Security Architect – Threat Informed Defense** at Orkla IT, where he designs secure architectures, builds detection capabilities, and mentors teams in SOC, threat intelligence, and vulnerability management.  
+Today I work as Lead Security Architect at Orkla IT, focusing on threat-informed defence, threat hunting and technical security assessments. A growing part of my work is the practical use and security of AI and agentic tooling, including MCP services, OpenCode, reusable Skills and local LLM workflows. I also write and build security tooling through [Predefender](https://www.predefender.com), my independent security project, including [Huntbook](https://huntbook.predefender.com), a practical field guide to threat hunting and defensive security.
 
-He is the author of "[Huntbook by Predefender](https://huntbook.predefender.com)", an online resource for professionalizing threat hunting and incident response. In addition, Roger develops proof-of-concept security tools such as **Wraithbind** (a Rust-based C2/Breach and Attack Simulation platform) and **Sentifender Lexica Detectica** (a Streamlit app for exploring Microsoft Defender/Sentinel schemas). [Predefender](https://predefender.com) is Rogers personal initiative to both drive innovation and teach threat hunting to the masses. 
+## Core Expertise
 
-With a strong background in information security consulting and hands-on programming, he combines strategic vision with technical depth. A passionate Capture The Flag (CTF) participant and reverse engineer, Roger thrives at the intersection of red and blue teaming, bringing creativity, precision, and persistence to solving complex security challenges.
+| | |
+|---|---|
+| **Security Architecture & Strategy**<br>Security service design, target architectures, technical risk assessment and threat-informed design. | **Security Leadership**<br>Team leadership, budget responsibility, capability building, prioritisation and organisational change. |
+| **Threat Hunting & Detection**<br>Hypothesis-driven hunting, telemetry validation, detection gaps and ATT&CK-aligned analysis. | **Adversary Emulation**<br>Penetration testing, purple teaming, MITRE ATT&CK, breach and attack simulation and CTF work. |
+| **SOC & Incident Response**<br>SOC design, investigations, escalation, response processes, mentoring and service improvement. | **Software & Automation**<br>Python, Rust, Go. |
+| **Vulnerability Management**<br>Service design, scanning platforms, prioritisation, remediation follow-up and customer delivery. | **AI & Agentic Security**<br>MCP services and gateway patterns, OpenCode, reusable Skills, local LLM workflows and security of AI integrations. |
 
+## Selected Platforms & Technologies
 
-## Contact
+| | |
+|---|---|
+| **Security Platforms**<br>Microsoft Defender XDR, Microsoft Sentinel, Splunk, OpenSearch/Elasticsearch, Azure | **Development & Automation**<br>Python, Go, Rust |
+| **Vulnerability Scanners**<br>Qualys, Nessus | **AI & Agentic Security**<br>MCP, OpenCode, Ollama, Copilot Studio |
 
-| Media | |
-| ----- | ---  | 
-|  __Phone__   | +47 91800451 |
-| __E-mail__   | rogercbjohnsen@gmail.com |
-| __LinkedIn__ | [https://www.linkedin.com/in/rogerjohnsen/](https://www.linkedin.com/in/rogerjohnsen/) |
+## Professional Experience
 
----
+### Lead Security Architect - Threat-Informed Defence
 
-## Experience
+**Orkla IT** | June 2025 - present | Oslo, Norway
 
-### Orkla IT
+I connect security architecture with operational defence through threat hunting, technical assessments and validation of telemetry, detection coverage and response capabilities. The work spans SOC, infrastructure, network security, vulnerability management and threat intelligence.
 
-#### Lead Security Architect - Threat Informed Defense
-June 2025 - present
+**Selected work and deliverables:**
 
-> In this role, I focus on designing secure, scalable, and resilient architectures that incorporate threat intelligence and adversary behavior insights. My work emphasizes proactive threat detection through intelligence-driven threat hunting and purple teaming, helping to strengthen the organization’s detection and response capabilities. I collaborate closely with cross-functional teams to ensure security is embedded throughout the technology lifecycle and aligned with business objectives.
->
-> I also support knowledge sharing across the organization by mentoring teams in SOC operations, threat intelligence, and vulnerability management, and by fostering a culture of secure design. Through regular technical risk assessments and targeted mitigation strategies, I help identify and address security gaps. Staying ahead of emerging threats is a core part of the role, and I continuously adapt our defenses to meet the demands of a dynamic threat landscape.
+- Conducted application penetration testing and documented security findings, including weaknesses in session handling, information exposure and API security.
+- Assessed enterprise AI platforms for prompt injection, information exposure and access control weaknesses, documenting technical risks and security recommendations.
+- Developed an asset criticality framework linking business impact, recovery objectives, technical dependencies and security controls to threat-informed assessments.
+- Designed and prototyped MCP services and gateway patterns for security tooling, with a focus on authentication, authorisation, data access and agent-to-tool boundaries.
+- Supported threat hunting and technical investigations through hypothesis-driven analysis, KQL and Splunk queries, and assessment of detection and response gaps.
+- Reviewed external penetration test findings with security stakeholders and provided technical indicators to support SOC detection work.
+- Developed threat intelligence and AI workflow prototypes using structured data, local LLMs and MCP-based access to security information.
+- Delivered internal workshops on OpenCode and reusable Skills, alongside mentoring and knowledge sharing across security disciplines.
 
-> Currently looking into how to lift both internal and external security by looking at utilizing TryHackMe Tabletopp excersises and MTIRE Caldera for break and attack simulations. 
+### Head of Cyber Security Operations
 
-_Achievements: Introduced the company to Threat Informed Defense through threat intelligence, log investigation, pentest and curiosity- Have uncovered severe vulnerabilities in current infrastructure._
+**Orkla IT** | March 2024 - June 2025 | Oslo, Norway
 
-_Relevant Technologies_: Microsoft Defender, Kusto Query Language, Azure, Splunk, Nessus, Qualys, SolarWinds Orion, Python, Rust, GO, PowerShell, MITRE Caldera.
+Led the security operations portfolio, covering SOC, penetration testing, SAP security, vulnerability management and consulting, with responsibility for budget and staffing. During cost-driven downscaling, restructured services, prioritised defensive capabilities and shifted SOC practices towards investigation and threat hunting. Improved escalation and response routines.
 
-#### Head of Cyber Security Operations
-March 2024 - June 2025. Oslo, Norway 
+### SOC Analyst
 
-> As Head of Cyber Security Operations at Orkla IT in Oslo, Norway, I lead a dedicated team of security experts specializing in SOC, penetration testing, and SAP security. Drawing on my background in threat detection and incident response, I have successfully shaped strategic security initiatives to safeguard the company and its customers. My focus on developing a resilient and proactive team has been instrumental in addressing complex security challenges and creating a robust security posture
+**Orkla IT** | October 2023 - June 2025 | Oslo, Norway
 
-_Achievements: Restructured my department with focus on delivering operational security and consultancy work. Focused SOC into proactive manners and investigation (Threat Hunting), incorporating routines and processes. Tidying the department budget._
+Joined as a SOC Analyst and later combined hands-on analysis with operational leadership responsibilities. Led day-to-day analyst work, reviewed SIEM use cases and response workflows, improved hypothesis-driven hunting and trained colleagues in reverse engineering and investigative methods. This role overlapped with the Head of Cyber Security Operations position.
 
-_Relevant Technologies_: Microsoft Defender, Kusto Query Language, Azure, Splunk, Nessus, Qualys, SolarWinds Orion, Python, Rust, GO, PowerShell, MITRE Caldera.
+### Senior Security Analyst
 
-#### SOC Analyst
+**Defendable AS (formerly BDO Cybersecurity)** | April 2023 - September 2023 | Norway
 
-October 2023 - June 2025. Oslo, Norway 
+Supported SOC investigations and developed threat hunting practices through behavioural analysis, hypothesis refinement and detection coverage assessments. Contributed requirements to an internal security platform and designed and led an eight-day SOC training conference covering malware, log analysis and operational technology.
 
-> In my role as a SOC Analyst at Orkla IT in Oslo, Norway, I spearheaded the development of threat detection and incident management efforts within the Security Operations Center. By leading a team of analysts, I focused on enhancing our proactive approach to identifying and mitigating threats across diverse environments. My hands-on involvement in threat hunting, SIEM tuning, and escalation processes aimed to improve SOC efficiency and effectiveness, ultimately strengthening our security posture and supporting the organization's security goals
+### Subject Matter Lead
 
-> Started to look into how to lift both internal and external security by looking at MTIRE Caldera for break and attack simulations. 
+**Defendable AS (formerly BDO Cybersecurity)** | September 2020 - April 2023 | Oslo, Norway
 
-_Achievements: Focused SOC into proactive manners and investigation (Threat Hunting), incorporating routines and processes. Trained analysts in advanced topics such as reversing, analysis and threat hunting._
+Developed the SOC's threat hunting capability and coached analysts in structured investigations. Designed a two-week onboarding programme, built a training portal and learning paths, contributed to SIEM, EDR and log normalisation platform evaluations and documented hunting workflows and detection logic.
 
-_Relevant Technologies_: Microsoft Defender, Kusto Query Language, Azure, Splunk, Nessus, Qualys, SolarWinds Orion, Python, Rust, GO, PowerShell.
+### Security Analyst MSS
 
-### Defendable AS (former BDO Cybersecurity)
+**Pedab Norge** | November 2017 - August 2020 | Oslo, Norway
 
-Senior Security Analyst September 2020 - September 2023. Oslo, Norway 
+Built a SOC around IBM QRadar, established analysis and incident processes, onboarded analysts and developed investigation integrations and Python-based triage automation.
 
-> In my role as a Senior Security Analyst at BDO Cybersecurity (now Defendable AS), I focused on coaching and educating SOC analysts while building threat hunting capabilities within the organization. After the transition to Defendable AS in 2021, I took on dual roles: working as a Threat Hunter to identify intrusion artifacts alongside the SOC team and serving as Head of Training to guide and develop analysts into top-tier SOC professionals. Participating in pilot on building Purple Team capabilities through AttackIQ based training.
+### Information Security Consultant
 
-_Achievements: I designed and led Defendable's annual internal SOC education conference, an intensive eight-day program for analysts and employees. The conference featured expert-led sessions on malware analysis, log analysis, and operational technologies, significantly enhancing team expertise and collaboration._
+**Watchcom Security Group AS** | September 2015 - November 2017 | Oslo, Norway
 
-_Relevant Technologies_: Microsoft Defender and Sentinel, Kusto Query Language, Elastic, Carbon Black, Python, Rust, GO.
+Rebuilt a vulnerability management service using Tenable products, operated scanning infrastructure, validated findings and supported customer remediation and second-line SIEM investigations.
 
-### Pedab Norge
+### Senior Security Consultant
 
-Security Analyst MSS November 2017 - August 2020. Oslo, Norway 
+**Protego AS** | February 2015 - August 2015 | Oslo, Norway
 
-> In my role as a Security Analyst MSS at Pedab Norge, I had the opportunity to build a SOC from scratch, utilizing IBM QRadar for monitoring network activities and analyzing security incidents. I developed processes for daily analysis, aided customers in incident handling, and led the creation of integrations for enhanced analysis work. Automated triage using Python to increase speed and quality.
+Worked with penetration testing, vulnerability scanning and security consulting. I also contributed to development and improvement of the company's security services.
 
-_Achievements: Built a SOC from scratch, onboarding new analysts, automation through Python scripting_
+### Senior Systems Consultant
 
-_Relevant Technologies_: IBM Qradar, Python, Rust, GO.
+**Making Waves** | September 2011 - January 2015 | Oslo, Norway
 
-<div style="page-break-after: always;"></div>
+Worked in application security and PHP development. Introduced systematic security testing, including internal penetration tests with Burp Suite, Acunetix and custom tooling, vulnerability scanning, load testing and technical security talks.
 
-### Watchcom Security Group AS 
+### Software Developer and implementing agile processes
 
-Information Security Consultant September 2015 - November 2017. Oslo, Norway 
+**bMenu** | December 2010 - September 2011 | Oslo, Norway
 
-> In my role as an Information Security Consultant at Watchcom Security Group AS, I spearheaded the transition of the Vulnerability Management service "Graywolf" to Tenable products. Managing server and scanner stacks, I assessed vulnerabilities through manual testing and provided crucial support to customers. Additionally, I played a key role in validating alerts and incidents in Watchcom's SIEM offering as 2nd line support, while also implementing enhancements to the SOC process
+Developed product functionality in PHP and C#. I also introduced agile practices, set up continuous integration, Git repository services and Zend Server environments.
 
-_Achievements: Restructured vulnerability management service, rebuilt and enhanced SOC service._
+### Web Developer & Team Leader
 
-_Relevant Technologies_: IBM Qradar, Nessus, Outpost24, Python, Rust, Go
+**Fronter** | March 2007 - November 2010 | Oslo, Norway
 
-### Protego AS
+Developed the Fronter learning platform and later led Scrum delivery for a six-person development team.
 
-Senior Security Consultant February 2015 - August 2015. Oslo, Norway 
+### Systems Developer
 
-> In my role as a Senior Security Consultant at Protego AS, I focused on enhancing cybersecurity measures through penetration testing, vulnerability scanning, and security consulting for clients. I played a key role in developing and improving security services, contributing to the overall success of the company. Company defunct as of Aug. 2015 due to bankrupcy.
+**Hontas AS** | September 2005 - December 2006 | Kongsvinger, Norway
 
-_Achievements: Penetration tested companies with regards to network, services and web._
+Developed software for healthcare devices and workstations, including a C++ browser messaging extension and a C# mobile application.
 
-_Relevant Technologies_: BurpSuite, Python, other pentest tools.
+### CEO / Programmer
 
-### Making Waves 
+**Diakron Programvare** | May 2005 - June 2006 | Kongsvinger, Norway
 
-Senior Systems Consultant September 2011 - January 2015. Oslo, Norway
+Started a small software company while studying and developed a PHP-based CMS called *ekorn::websystem*.
 
-> In my role as Senior Systems Consultant at Making Waves AS, I specialized in Security, focusing on improving software development processes. I managed in-house penetration testing using tools like Acunetix Web Vulnerability Scanner, BurpSuite, custom tools, and browser extensions. I also researched attack vectors, delivered presentations, and published materials to enhance the organization’s security, improving the overall security profile of the development process. In addition, I worked as a web developer in the Open Source PHP department, primarily focusing on the LAMPP stack. 
+## Selected Projects
 
-_Achievements: Started incorporating security into the development process in forms of vulnerability scanning, loadtesting and unit testing._
+### AI and MCP Security Prototypes
 
-_Relevant Technologies_: Acunetix, PHP XML, MySQL, Apache, MongoDB, eZ Publish, Apache JMeter for load testing, EPiServer, ElasticSearch, PowerShell and .NET 4.x
+2025 - ongoing
 
-### bMenu
+Proof-of-concept MCP services, gateways and agent workflows integrating threat intelligence and local LLMs, with emphasis on authentication, authorisation and agent-to-tool boundaries.
 
-Software Developer and implementing agile processes December 2010 - September 2011. Oslo, Norway
+### Huntbook by Predefender
 
-> In my role as a Software Developer at bMenu, I collaborated with the development team to enhance product functionality in PHP and C#. I also played a key role in implementing agile processes, drawing from my experience with eXtreme Programming and Scrum. Additionally, I set up continuous integration servers, Git repository servers, and Zend Server CE webservers to streamline development processes and improve efficiency
+[huntbook.predefender.com](https://huntbook.predefender.com) | 2024 - ongoing
 
-_Achievements: Implemented agile methodologies_
-
-_Relevant Technologies_: PHP, C#
-
-### Fronter
-
-Web developer & team leader March 2007 - November 2010. Oslo, Norway
-
-> In my role as a web developer and team leader at Fronter AS in Oslo, I focused on extending and implementing new features on the learning management system product. I advanced to team leader, overseeing the Scrum process for a six-person development team and an eleven-person team in total.
-
-_Achievements: Lead a developer team._
-
-_Relevant Technologies_: PHP
-
-
-### Hontas AS
-
-Systems Developer September 2005 - December 2006. Kongsvinger, Norway
-
-> In my role as a Systems Developer at Hontas AS, I extended and improved the functionality of a hospital product range, including a handheld terminal and workstation. I developed a messaging extension for a custom C++ web browser on the handheld device and collaborated on the development of a mobile app using C# for Siemens Doculive.
-
-_Achievements: First professional job, learned a lot about how hospitals are runned._
-
-_Relevant Technologies_: PHP, C++
-
-### Diakron Programvare
-
-CEO/Programmer May 2005 - June 2006. Kongsvinger, Norway
-
-> Founded a software company during college, developing a PHP-based CMS, "ekorn::websystem", inspired by concepts from a JSP-based college project
-
-_Achievements: Learned to manage my own company._
-
-_Relevant Technologies_: PHP
-
-<div style="page-break-after: always;"></div>
-
-## Education
-
-| Year | School | Study | 
-| ----- | ----- | ----- | 
-| 2002 - 2005 | Hedmark University of Applied Sciences | Computer Science |
-| 2001 - 2002 | Øvrebyen Videregående Skole | Kongsvinger Allmenfag påbygging |
-| 2000 - 2001 |Kongsvinger Tekniske Fagskole (VGS) | Computer and office equipment repairs | 
-| 1999 - 2000 |Kongsvinger Tekniske Fagskole (VGS) | Electronics |
-| 1998 - 1999 | Kongsvinger Tekniske Fagskole (VGS) | Electronics/electric appliances |
-
-## Certifications
-
-A small selection of relevant certifications. For more certifications and information, please see my LinkedIn page.
-
-| Certification | Issued by | Issued |
-| ------------- | --------- | ------ |
-| Intelligence-Driven Threat Hunting - Malware | Intel 471 | Jun 2025 |
-| Threat Hunting Management: Structuring Collaboration Across Teams | Intel 471 | Jun 2025 |
-| Threat Hunting - Discovery (Level 1) | Intel 471 | Nov 2024 | 
-| Threat Hunting - Collection (Level 1) | Intel 471 | Oct 2024 |
-| Foundations of Operationalizing MITRE ATT&CK v13 | AttackIQ |Mar 2024 |
-| Cyber Threat ManagementCyber Threat Management | Cisco | Aug 2023 |
-| Mapping MITRE ATT&CK to CVE for ImpactMapping MITRE ATT&CK to CVE for Impact | AttackIQ | Jul 2023 |
-| Microsoft Certified: Security, Compliance, and Identity Fundamentals SC-900 | Microsoft| Mar 2023 |
-| Microsoft Certified: Security Operations Analyst Associate SC-200| Microsoft | Feb 2023 |
-| Certified Ethical Hacker (CEH) | EC-Council | Jun 2019 |
-
-## Publications
-
-### Technical
-
-#### Huntbook by Predefender
-
-Predefender.com · Sep 10, 2024 &rarr; Ongoing.
-
-> [Huntbook by Predefender](https://huntbook.predefender.com) is a comprehensive online resource dedicated to threat hunting, created for cybersecurity professionals looking to deepen their understanding of threat detection and response. It combines structured guidance with practical insights, providing an accessible yet in-depth look into the methodologies, tools, and strategies used in modern threat hunting.  
-
-#### Malware Reversing
-
-[The Malware That Wasn't"](https://www.predefender.com/articles/the-malware-that-wasnt/index.html) - an article on how I reverse engineered a malware sample sent to me. 
-
-### Other
-
-#### Series on mindset and thinking
-
- A collection of articles focused on how and ways we think. In many ways the precursor of my work at Defendable and culminated in the "Huntbook by Predefender"  (2024). Articles released on Medium.com between May 2020 - Aug. 2020.
-
-* [The ways to think - part 3, riddle me this](https://medium.com/security-operation-capybara/the-ways-to-think-part3-riddle-me-this-9f07ab90a220)
-* [The ways to think - part 2, lateral thinking](https://medium.com/security-operation-capybara/the-ways-to-think-part2-lateral-thinking-5535aca2607a)
-* [The ways to think - part 1, all the small things](https://medium.com/security-operation-capybara/the-ways-to-think-part-1-all-the-small-things-4e8007158600)
-
-## Personal Projects
+Free online field guide to practical threat hunting, incident response and repeatable investigative methods.
 
 ### Wraithbind C2 / Breach and Attack Simulation Platform
 
-_Ongoing · 2025 → present_
+2025 - ongoing
 
-Wraithbind is a proof-of-concept Command and Control (C2) and Breach and Attack Simulation platform, developed in Rust with a Node.js/Vue.js operator interface. It explores secure and resilient communication channels using **Nostr (NIP-04 encrypted messaging)** and **IPFS for decentralized bootstrap and resource distribution**.  
-The project demonstrates advanced knowledge of adversary emulation, modular agent design, and backend/API development, and forms part of the Predefender research portfolio aimed at enhancing detection and response capabilities. Not publicly available / available upon request.
+Private Rust-based proof-of-concept C2 and breach and attack simulation platform with a Node.js/Vue.js interface, exploring modular agents, Nostr and IPFS.
 
 ### Sentifender Lexica Detectica
 
-_Ongoing · 2024 → present_
+[sentifender.streamlit.app](https://sentifender.streamlit.app) | 2024 - ongoing
 
-Sentifender Lexica Detectica is a Streamlit-based application (Python) that provides a searchable reference for Microsoft Sentinel and Defender data tables and schemas. The app enables users-especially threat hunters-to explore relationships between tables with example Kusto queries and pivot points for easier navigation through the data landscape. Publicly available on [sentifender.streamlit.app](https://sentifender.streamlit.app/)
+Streamlit reference for Microsoft Sentinel and Defender schemas, KQL queries, table relationships and threat hunting pivots.
 
-## Languages ## 
+## Selected Writing
 
-| Language | Proficiency |
-| -------- | ----------- |  
-| English | Professional Working |
-| Norwegian (bokmål) | Norwegian Native |
+| | |
+|---|---|
+| **[The Malware That Wasn't](https://www.predefender.com/articles/the-malware-that-wasnt/)**<br>A reverse engineering write-up about a suspicious sample and the importance of validating what tools tell us. | **[Definition](https://huntbook.predefender.com/part-1/introduction/definition/)**<br>A practical definition of threat hunting, how it differs from adjacent disciplines and what useful hunting should leave behind. |
+| **[The Threat Hunter Persona](https://huntbook.predefender.com/part-1/introduction/the-threathunter-persona/)**<br>A practical view of the skills, judgement and mindset needed for threat hunting. | **[How to Start a Threat Hunting Program](https://huntbook.predefender.com/part-1/introduction/how-to-start-a-threat-hunting-program/)**<br>How to establish the foundations, objectives and feedback loops needed to build a useful hunting capability. |
+| **[Hierarchy of Needs](https://huntbook.predefender.com/part-1/introduction/hierarchy-of-needs/)**<br>Why threat hunting depends on foundations such as asset knowledge, telemetry, detection and incident response. | |
+
+## Selected Certifications & Credentials
+
+| Certification / Credential | Issuer | Status / Year |
+|---|---|---|
+| **Microsoft Certified: Security Operations Analyst Associate (SC-200)** | Microsoft | Active |
+| **Certified in Cybersecurity (CC)** | ISC2 | Valid to 2029 |
+| **Threat Hunting: Discovery - Level 2** | Intel 471 | 2026 |
+| **Threat Hunting: Credential Access - Level 2** | Intel 471 | 2026 |
+| **Threat Hunting Management Workshop: Building the Bridge Between Intelligence and the Hunt** | Intel 471 | 2026 |
+| **Intelligence-Driven Threat Hunting: Vulnerability Intel** | Intel 471 | 2026 |
+| **Intelligence-Driven Threat Hunting: Malware Intel** | Intel 471 | 2025 |
+| **Foundations of Operationalizing MITRE ATT&CK v13** | AttackIQ | 2024 |
+
+*Selected certifications and credentials. Full credential history is available on [Credly](https://www.credly.com/users/roger-johnsen) and [LinkedIn](https://www.linkedin.com/in/rogerjohnsen).*
+
+## Education
+
+**Hedmark University of Applied Sciences** | Computer Science | 2002 - 2005  
+**Kongsvinger Technical College** | Electronics, computers and office equipment | 1998 - 2001
+
+## Languages
+
+**Norwegian (Bokmål):** Native | **English:** Professional working proficiency
